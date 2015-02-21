@@ -15,6 +15,9 @@
 		3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44911A990C8700AAA47A /* Images.xcassets */; };
 		3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44931A990C8700AAA47A /* LaunchScreen.xib */; };
 		3E3E44A11A990C8700AAA47A /* NexJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44A01A990C8700AAA47A /* NexJobTests.m */; };
+		3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */; };
+		3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */; };
+		3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		3E3E449A1A990C8700AAA47A /* NexJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3E449F1A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E3E44A01A990C8700AAA47A /* NexJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexJobTests.m; sourceTree = "<group>"; };
+		3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datasetRef.txt; sourceTree = "<group>"; };
+		3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
+		3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetB.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		3E3E44811A990C8700AAA47A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */,
+				3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */,
+				3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */,
 				3E3E44821A990C8700AAA47A /* Info.plist */,
 				3E3E44831A990C8700AAA47A /* main.m */,
 			);
@@ -205,6 +214,9 @@
 				3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */,
 				3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */,
 				3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */,
+				3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */,
+				3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */,
+				3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				3E3E44A61A990C8700AAA47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3E44A71A990C8700AAA47A /* Build configuration list for PBXNativeTarget "NexJobTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				3E3E44A91A990C8700AAA47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

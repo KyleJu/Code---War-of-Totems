@@ -1,0 +1,2 @@
+NJDataSetA.xml = Labour force survey estimates (LFS), wages of employees by type of work, North American Industry Classification System (NAICS), sex and age group, unadjusted for seasonality
+NJDataSetB.xml = Job vacancy statistics (JVS), job vacancy rate by North American Industry Classification System (NAICS), province and territory
