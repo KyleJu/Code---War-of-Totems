@@ -1,22 +1,22 @@
 //
-//  NJMainTabBarViewController.m
+//  NJMainNavigationViewController.m
 //  NexJob
 //
 //  Created by KP on 2/21/15.
 //  Copyright (c) 2015 War of the Totems. All rights reserved.
 //
 
-#import "NJMainTabBarViewController.h"
+#import "NJMainNavigationViewController.h"
 
-@interface NJMainTabBarViewController ()
+@interface NJMainNavigationViewController ()
 
 @end
 
-@implementation NJMainTabBarViewController
+@implementation NJMainNavigationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,15 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-#import "NJMainTabBarViewController.h"
+#import "NJMainTabBarController.h"
 #import "NJJobsViewController.h"
 #import "NJIndustriesViewController.h"
+#import "NJMainNavigationViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) NJMainTabBarViewController *tabBarController;
+@property (strong, nonatomic) NJMainTabBarController *tabBarController;
 
 @property (strong, nonatomic) NJJobsViewController *jobsVC;
 @property (strong, nonatomic) NJIndustriesViewController *industriesVC;

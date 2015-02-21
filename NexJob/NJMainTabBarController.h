@@ -1,5 +1,5 @@
 //
-//  NJJobsViewController.h
+//  NJMainTabBarController.h
 //  NexJob
 //
 //  Created by KP on 2/21/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NJMainViewController.h"
 
-@interface NJJobsViewController : NJMainViewController
+@interface NJMainTabBarController : UITabBarController
 
 @end

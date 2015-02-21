@@ -16,27 +16,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    // Appeareances
+    
+    [[UITabBarItem appearance] setTitleTextAttributes: @{NSForegroundColorAttributeName : [UIColor blackColor], NSFontAttributeName : [UIFont fontWithName:@"AvenirNext-Regular" size:15]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes: @{NSForegroundColorAttributeName : [UIColor blackColor], NSFontAttributeName : [UIFont fontWithName:@"AvenirNext-Regular" size:15]} forState:UIControlStateSelected];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    
-    
-    self.huckleViewController = [[HKLHomeViewController alloc] init];
-    self.chatsViewController = [[HKLChatsViewController alloc] init];
-    self.profileViewController = [[HKLProfileViewController alloc] init];
-    self.welcomeViewController = [[HKLWelcomeViewController alloc] init];
-    
-    
-    HKLNavigationController *navController1 = [[HKLNavigationController alloc] initWithRootViewController:self.huckleViewController];
-    HKLNavigationController *navController2 = [[HKLNavigationController alloc] initWithRootViewController:self.chatsViewController];
-    HKLNavigationController *navController3 = [[HKLNavigationController alloc] initWithRootViewController:self.profileViewController];
-    
-    //self.tabBarController.tabBar.barTintColor = [UIColor colorWithRed:58.0 green:196.0 blue:124.1 alpha:0];;
-    
-    self.tabBarController = [[HKLMainTabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navController1, navController2, navController3, nil];
-    self.tabBarController.selectedIndex = 0;
+    self.jobsVC = [[NJJobsViewController alloc] init];
+    self.industriesVC = [[NJIndustriesViewController alloc] init];
 
+    NJMainNavigationViewController *navController1 = [[NJMainNavigationViewController alloc] initWithRootViewController:self.jobsVC];
+    NJMainNavigationViewController *navController2 = [[NJMainNavigationViewController alloc] initWithRootViewController:self.industriesVC];
+    
+    
+    self.tabBarController = [[NJMainTabBarController alloc] init];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navController1, navController2, nil];
+    self.tabBarController.selectedIndex = 0;
+    
+    self.window.rootViewController = self.tabBarController;
     
     return YES;
 }

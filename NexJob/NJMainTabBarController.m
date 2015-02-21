@@ -1,31 +1,22 @@
 //
-//  NJJobsViewController.m
+//  NJMainTabBarController.m
 //  NexJob
 //
 //  Created by KP on 2/21/15.
 //  Copyright (c) 2015 War of the Totems. All rights reserved.
 //
 
-#import "NJJobsViewController.h"
+#import "NJMainTabBarController.h"
 
-@interface NJJobsViewController ()
+@interface NJMainTabBarController ()
 
 @end
 
-@implementation NJJobsViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self)
-    {
-        self.tabBarItem.title = @"Jobs";
-    }
-    return self;
-}
+@implementation NJMainTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tabBarController.tabBar.translucent = NO;
 }
 
 - (void)didReceiveMemoryWarning {
