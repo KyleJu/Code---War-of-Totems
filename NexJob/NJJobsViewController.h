@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  NJJobsViewController.h
 //  NexJob
 //
-//  Created by Kyle Ju on 2015-02-21.
+//  Created by KP on 2/21/15.
 //  Copyright (c) 2015 War of the Totems. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NJJobsViewController : UIViewController
 
 @end
-

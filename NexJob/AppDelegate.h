@@ -8,10 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "NJMainTabBarViewController.h"
+#import "NJJobsViewController.h"
+#import "NJIndustriesViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) NJMainTabBarViewController *tabBarController;
+
+@property (strong, nonatomic) NJJobsViewController *jobsVC;
+@property (strong, nonatomic) NJIndustriesViewController *industriesVC;
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;

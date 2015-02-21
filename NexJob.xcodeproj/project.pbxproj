@@ -10,7 +10,6 @@
 		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
 		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
 		3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */; };
-		3E3E448D1A990C8700AAA47A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E448C1A990C8700AAA47A /* ViewController.m */; };
 		3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E448E1A990C8700AAA47A /* Main.storyboard */; };
 		3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44911A990C8700AAA47A /* Images.xcassets */; };
 		3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44931A990C8700AAA47A /* LaunchScreen.xib */; };
@@ -18,6 +17,12 @@
 		3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */; };
 		3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */; };
 		3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */; };
+		5C6A17BD1A9911E600272C6B /* NJMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17BB1A9911E600272C6B /* NJMainTabBarViewController.m */; };
+		5C6A17C21A9912CE00272C6B /* NJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17C11A9912CE00272C6B /* NJMainViewController.m */; };
+		5C6A17C71A99164600272C6B /* NJJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17C51A99164600272C6B /* NJJobsViewController.m */; };
+		5C6A17C81A99164600272C6B /* NJJobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A17C61A99164600272C6B /* NJJobsViewController.xib */; };
+		5C6A17CD1A99165F00272C6B /* NJIndustriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17CB1A99165F00272C6B /* NJIndustriesViewController.m */; };
+		5C6A17CE1A99165F00272C6B /* NJIndustriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A17CC1A99165F00272C6B /* NJIndustriesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 		3E3E44851A990C8700AAA47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E3E44861A990C8700AAA47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E3E44891A990C8700AAA47A /* NexJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NexJob.xcdatamodel; sourceTree = "<group>"; };
-		3E3E448B1A990C8700AAA47A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E3E448C1A990C8700AAA47A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E3E448F1A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E3E44911A990C8700AAA47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E3E44941A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -48,6 +51,16 @@
 		3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datasetRef.txt; sourceTree = "<group>"; };
 		3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
 		3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetB.xml; sourceTree = "<group>"; };
+		5C6A17BA1A9911E600272C6B /* NJMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainTabBarViewController.h; sourceTree = "<group>"; };
+		5C6A17BB1A9911E600272C6B /* NJMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainTabBarViewController.m; sourceTree = "<group>"; };
+		5C6A17C01A9912CE00272C6B /* NJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainViewController.h; sourceTree = "<group>"; };
+		5C6A17C11A9912CE00272C6B /* NJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainViewController.m; sourceTree = "<group>"; };
+		5C6A17C41A99164600272C6B /* NJJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobsViewController.h; sourceTree = "<group>"; };
+		5C6A17C51A99164600272C6B /* NJJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobsViewController.m; sourceTree = "<group>"; };
+		5C6A17C61A99164600272C6B /* NJJobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJJobsViewController.xib; sourceTree = "<group>"; };
+		5C6A17CA1A99165F00272C6B /* NJIndustriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIndustriesViewController.h; sourceTree = "<group>"; };
+		5C6A17CB1A99165F00272C6B /* NJIndustriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIndustriesViewController.m; sourceTree = "<group>"; };
+		5C6A17CC1A99165F00272C6B /* NJIndustriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJIndustriesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +104,9 @@
 			children = (
 				3E3E44851A990C8700AAA47A /* AppDelegate.h */,
 				3E3E44861A990C8700AAA47A /* AppDelegate.m */,
-				3E3E448B1A990C8700AAA47A /* ViewController.h */,
-				3E3E448C1A990C8700AAA47A /* ViewController.m */,
 				3E3E448E1A990C8700AAA47A /* Main.storyboard */,
 				3E3E44911A990C8700AAA47A /* Images.xcassets */,
+				5C6A17BF1A99120E00272C6B /* View Controllers */,
 				3E3E44931A990C8700AAA47A /* LaunchScreen.xib */,
 				3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */,
 				3E3E44811A990C8700AAA47A /* Supporting Files */,
@@ -129,6 +141,39 @@
 				3E3E449F1A990C8700AAA47A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C6A17BF1A99120E00272C6B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C6A17BA1A9911E600272C6B /* NJMainTabBarViewController.h */,
+				5C6A17BB1A9911E600272C6B /* NJMainTabBarViewController.m */,
+				5C6A17C01A9912CE00272C6B /* NJMainViewController.h */,
+				5C6A17C11A9912CE00272C6B /* NJMainViewController.m */,
+				5C6A17C91A99164A00272C6B /* Industries View Controller */,
+				5C6A17C31A99162800272C6B /* Jobs View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5C6A17C31A99162800272C6B /* Jobs View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C6A17C41A99164600272C6B /* NJJobsViewController.h */,
+				5C6A17C51A99164600272C6B /* NJJobsViewController.m */,
+				5C6A17C61A99164600272C6B /* NJJobsViewController.xib */,
+			);
+			name = "Jobs View Controller";
+			sourceTree = "<group>";
+		};
+		5C6A17C91A99164A00272C6B /* Industries View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C6A17CA1A99165F00272C6B /* NJIndustriesViewController.h */,
+				5C6A17CB1A99165F00272C6B /* NJIndustriesViewController.m */,
+				5C6A17CC1A99165F00272C6B /* NJIndustriesViewController.xib */,
+			);
+			name = "Industries View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6A17CE1A99165F00272C6B /* NJIndustriesViewController.xib in Resources */,
 				3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */,
 				3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */,
+				5C6A17C81A99164600272C6B /* NJJobsViewController.xib in Resources */,
 				3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */,
 				3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */,
 				3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */,
@@ -234,10 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6A17CD1A99165F00272C6B /* NJIndustriesViewController.m in Sources */,
+				5C6A17C71A99164600272C6B /* NJJobsViewController.m in Sources */,
 				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
 				3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */,
-				3E3E448D1A990C8700AAA47A /* ViewController.m in Sources */,
+				5C6A17BD1A9911E600272C6B /* NJMainTabBarViewController.m in Sources */,
 				3E3E44841A990C8700AAA47A /* main.m in Sources */,
+				5C6A17C21A9912CE00272C6B /* NJMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NexJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -370,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NexJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
