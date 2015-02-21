@@ -1,22 +1,22 @@
 //
-//  Entity.m
+//  LabourForceSurvey.m
 //  NexJob
 //
 //  Created by Ann Kim on 2015-02-21.
 //  Copyright (c) 2015 War of the Totems. All rights reserved.
 //
 
-#import "Entity.h"
+#import "LabourForceSurvey.h"
 
 
-@implementation Entity
+@implementation LabourForceSurvey
 
 @dynamic ageGroup;
 @dynamic geography;
+@dynamic obsValue;
 @dynamic sex;
+@dynamic timePeriod;
 @dynamic typeOfWork;
 @dynamic wageRates;
-@dynamic obsValue;
-@dynamic timePeriod;
 
 @end

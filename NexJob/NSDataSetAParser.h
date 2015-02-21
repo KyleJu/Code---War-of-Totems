@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LabourForceSurvey.h"
+#import "TBXML.h"
 
 @interface NSDataSetAParser : NSObject
+
++ (void)loadXML;
++ (void)traverseXMLElement:(TBXMLElement *)element;
 
 @end

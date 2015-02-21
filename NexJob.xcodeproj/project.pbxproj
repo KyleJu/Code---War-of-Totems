@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0FB3FAAA1A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */; };
 		0FB3FAAE1A99437E0069C7FC /* NSDataSetAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */; };
-		0FB3FAB11A99441D0069C7FC /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAB01A99441D0069C7FC /* Entity.m */; };
+		0FB3FAB71A9945AE0069C7FC /* LabourForceSurvey..m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAB61A9945AE0069C7FC /* LabourForceSurvey..m */; };
 		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
 		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
 		3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */; };
@@ -39,8 +39,8 @@
 		0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJDataSetAModel.xcdatamodel; sourceTree = "<group>"; };
 		0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataSetAParser.h; sourceTree = "<group>"; };
 		0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataSetAParser.m; sourceTree = "<group>"; };
-		0FB3FAAF1A99441D0069C7FC /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		0FB3FAB01A99441D0069C7FC /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		0FB3FAB51A9945AE0069C7FC /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
+		0FB3FAB61A9945AE0069C7FC /* LabourForceSurvey..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey..m; sourceTree = "<group>"; };
 		3E3E447E1A990C8700AAA47A /* NexJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3E44821A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E3E44831A990C8700AAA47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,9 +89,10 @@
 			children = (
 				0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */,
 				0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */,
-				0FB3FAAF1A99441D0069C7FC /* Entity.h */,
-				0FB3FAB01A99441D0069C7FC /* Entity.m */,
+				0FB3FAB51A9945AE0069C7FC /* LabourForceSurvey.h */,
+				0FB3FAB61A9945AE0069C7FC /* LabourForceSurvey..m */,
 				0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */,
+				3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */,
 			);
 			name = NJDataSetA;
 			sourceTree = "<group>";
@@ -144,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */,
-				3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */,
 				3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */,
 				3E3E44821A990C8700AAA47A /* Info.plist */,
 				3E3E44831A990C8700AAA47A /* main.m */,
@@ -335,7 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB3FAB11A99441D0069C7FC /* Entity.m in Sources */,
+				0FB3FAB71A9945AE0069C7FC /* LabourForceSurvey..m in Sources */,
 				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
 				3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */,
 				3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */,
