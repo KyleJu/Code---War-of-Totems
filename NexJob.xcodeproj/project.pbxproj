@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FB3FAAA1A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */; };
+		0FB3FAAE1A99437E0069C7FC /* NSDataSetAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */; };
+		0FB3FAB11A99441D0069C7FC /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAB01A99441D0069C7FC /* Entity.m */; };
 		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
 		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
 		3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */; };
-		3E3E448D1A990C8700AAA47A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E448C1A990C8700AAA47A /* ViewController.m */; };
 		3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E448E1A990C8700AAA47A /* Main.storyboard */; };
 		3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44911A990C8700AAA47A /* Images.xcassets */; };
 		3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44931A990C8700AAA47A /* LaunchScreen.xib */; };
@@ -34,14 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJDataSetAModel.xcdatamodel; sourceTree = "<group>"; };
+		0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataSetAParser.h; sourceTree = "<group>"; };
+		0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataSetAParser.m; sourceTree = "<group>"; };
+		0FB3FAAF1A99441D0069C7FC /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		0FB3FAB01A99441D0069C7FC /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 		3E3E447E1A990C8700AAA47A /* NexJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3E44821A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E3E44831A990C8700AAA47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E3E44851A990C8700AAA47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E3E44861A990C8700AAA47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E3E44891A990C8700AAA47A /* NexJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NexJob.xcdatamodel; sourceTree = "<group>"; };
-		3E3E448B1A990C8700AAA47A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E3E448C1A990C8700AAA47A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E3E448F1A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E3E44911A990C8700AAA47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E3E44941A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -79,6 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB3FAAB1A9943640069C7FC /* NJDataSetA */ = {
+			isa = PBXGroup;
+			children = (
+				0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */,
+				0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */,
+				0FB3FAAF1A99441D0069C7FC /* Entity.h */,
+				0FB3FAB01A99441D0069C7FC /* Entity.m */,
+				0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */,
+			);
+			name = NJDataSetA;
+			sourceTree = "<group>";
+		};
 		1D63978FE3C2F0C8AC254524 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +129,10 @@
 			children = (
 				3E3E44851A990C8700AAA47A /* AppDelegate.h */,
 				3E3E44861A990C8700AAA47A /* AppDelegate.m */,
-				3E3E448B1A990C8700AAA47A /* ViewController.h */,
-				3E3E448C1A990C8700AAA47A /* ViewController.m */,
 				3E3E448E1A990C8700AAA47A /* Main.storyboard */,
 				3E3E44911A990C8700AAA47A /* Images.xcassets */,
 				3E3E44931A990C8700AAA47A /* LaunchScreen.xib */,
+				0FB3FAAB1A9943640069C7FC /* NJDataSetA */,
 				3E3E44BE1A992F8500AAA47A /* Parser */,
 				3E3E44B31A9922F000AAA47A /* CoreData */,
 				3E3E44811A990C8700AAA47A /* Supporting Files */,
@@ -128,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */,
-				3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */,
 				3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */,
+				3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */,
 				3E3E44821A990C8700AAA47A /* Info.plist */,
 				3E3E44831A990C8700AAA47A /* main.m */,
 			);
@@ -319,11 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB3FAB11A99441D0069C7FC /* Entity.m in Sources */,
 				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
 				3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */,
 				3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */,
+				0FB3FAAE1A99437E0069C7FC /* NSDataSetAParser.m in Sources */,
 				3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */,
-				3E3E448D1A990C8700AAA47A /* ViewController.m in Sources */,
+				0FB3FAAA1A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */,
 				3E3E44841A990C8700AAA47A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +549,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */,
+			);
+			currentVersion = 0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */;
+			path = NJDataSetAModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
