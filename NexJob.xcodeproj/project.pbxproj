@@ -7,19 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
 		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
 		3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */; };
 		3E3E448D1A990C8700AAA47A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E448C1A990C8700AAA47A /* ViewController.m */; };
-=======
-		0FB3FA9A1A9936190069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FA981A9936190069C7FC /* NJDataSetAModel.xcdatamodeld */; };
-		0FB3FA9D1A9937AD0069C7FC /* NJDataSetAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FA9C1A9937AD0069C7FC /* NJDataSetAParser.m */; };
-		0FB3FAA31A993F580069C7FC /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAA21A993F580069C7FC /* Entity.m */; };
-		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
-		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
-		3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */; };
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 		3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E448E1A990C8700AAA47A /* Main.storyboard */; };
 		3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44911A990C8700AAA47A /* Images.xcassets */; };
 		3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44931A990C8700AAA47A /* LaunchScreen.xib */; };
@@ -27,20 +18,9 @@
 		3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */; };
 		3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */; };
 		3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */; };
-<<<<<<< HEAD
 		3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44B11A9922E200AAA47A /* JobVacancy.m */; };
 		3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */; };
 		B988DBEF70855A8FACDCFB91 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407DFA75DDE5EFB2401951B0 /* libPods.a */; };
-=======
-		5C6A17C21A9912CE00272C6B /* NJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17C11A9912CE00272C6B /* NJMainViewController.m */; };
-		5C6A17C71A99164600272C6B /* NJJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17C51A99164600272C6B /* NJJobsViewController.m */; };
-		5C6A17C81A99164600272C6B /* NJJobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A17C61A99164600272C6B /* NJJobsViewController.xib */; };
-		5C6A17CD1A99165F00272C6B /* NJIndustriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17CB1A99165F00272C6B /* NJIndustriesViewController.m */; };
-		5C6A17CE1A99165F00272C6B /* NJIndustriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A17CC1A99165F00272C6B /* NJIndustriesViewController.xib */; };
-		5C6A17D11A991EBA00272C6B /* NJMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17D01A991EBA00272C6B /* NJMainNavigationViewController.m */; };
-		5C6A17D71A991F9B00272C6B /* NJMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A17D61A991F9B00272C6B /* NJMainTabBarController.m */; };
-		D84390520E9574551D92CFC6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BC2211CCA21BF3B82F221D /* libPods.a */; };
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,26 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-=======
-		0FB3FA991A9936190069C7FC /* NJDataSetAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJDataSetAModel.xcdatamodel; sourceTree = "<group>"; };
-		0FB3FA9B1A9937AD0069C7FC /* NJDataSetAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJDataSetAParser.h; sourceTree = "<group>"; };
-		0FB3FA9C1A9937AD0069C7FC /* NJDataSetAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJDataSetAParser.m; sourceTree = "<group>"; };
-		0FB3FAA11A993F580069C7FC /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		0FB3FAA21A993F580069C7FC /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
-		39BC2211CCA21BF3B82F221D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 		3E3E447E1A990C8700AAA47A /* NexJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3E44821A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E3E44831A990C8700AAA47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E3E44851A990C8700AAA47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E3E44861A990C8700AAA47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E3E44891A990C8700AAA47A /* NexJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NexJob.xcdatamodel; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		3E3E448B1A990C8700AAA47A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3E3E448C1A990C8700AAA47A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-=======
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 		3E3E448F1A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E3E44911A990C8700AAA47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E3E44941A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,7 +51,6 @@
 		3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datasetRef.txt; sourceTree = "<group>"; };
 		3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
 		3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetB.xml; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		3E3E44B01A9922E200AAA47A /* JobVacancy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobVacancy.h; sourceTree = "<group>"; };
 		3E3E44B11A9922E200AAA47A /* JobVacancy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobVacancy.m; sourceTree = "<group>"; };
 		3E3E44BF1A992FAB00AAA47A /* NJJobVacancyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobVacancyParser.h; sourceTree = "<group>"; };
@@ -91,22 +58,6 @@
 		407DFA75DDE5EFB2401951B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB090ABE0232B4D41DEEE01 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6B0AC3C77FB0C3FCEC7DEE6B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-=======
-		49B3CDEDB52ABF84E2E25D02 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		5C6A17C01A9912CE00272C6B /* NJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainViewController.h; sourceTree = "<group>"; };
-		5C6A17C11A9912CE00272C6B /* NJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainViewController.m; sourceTree = "<group>"; };
-		5C6A17C41A99164600272C6B /* NJJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobsViewController.h; sourceTree = "<group>"; };
-		5C6A17C51A99164600272C6B /* NJJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobsViewController.m; sourceTree = "<group>"; };
-		5C6A17C61A99164600272C6B /* NJJobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJJobsViewController.xib; sourceTree = "<group>"; };
-		5C6A17CA1A99165F00272C6B /* NJIndustriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIndustriesViewController.h; sourceTree = "<group>"; };
-		5C6A17CB1A99165F00272C6B /* NJIndustriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIndustriesViewController.m; sourceTree = "<group>"; };
-		5C6A17CC1A99165F00272C6B /* NJIndustriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJIndustriesViewController.xib; sourceTree = "<group>"; };
-		5C6A17CF1A991EBA00272C6B /* NJMainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainNavigationViewController.h; sourceTree = "<group>"; };
-		5C6A17D01A991EBA00272C6B /* NJMainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainNavigationViewController.m; sourceTree = "<group>"; };
-		5C6A17D51A991F9B00272C6B /* NJMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainTabBarController.h; sourceTree = "<group>"; };
-		5C6A17D61A991F9B00272C6B /* NJMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainTabBarController.m; sourceTree = "<group>"; };
-		C784F006CD06A74448ECD5A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				B988DBEF70855A8FACDCFB91 /* libPods.a in Frameworks */,
-=======
-				D84390520E9574551D92CFC6 /* libPods.a in Frameworks */,
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,35 +79,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
 		1D63978FE3C2F0C8AC254524 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				407DFA75DDE5EFB2401951B0 /* libPods.a */,
 			);
 			name = Frameworks;
-=======
-		0FB3FAA41A993FD30069C7FC /* NJDataSetA */ = {
-			isa = PBXGroup;
-			children = (
-				0FB3FA981A9936190069C7FC /* NJDataSetAModel.xcdatamodeld */,
-				0FB3FAA11A993F580069C7FC /* Entity.h */,
-				0FB3FAA21A993F580069C7FC /* Entity.m */,
-				0FB3FA9B1A9937AD0069C7FC /* NJDataSetAParser.h */,
-				0FB3FA9C1A9937AD0069C7FC /* NJDataSetAParser.m */,
-				3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */,
-			);
-			name = NJDataSetA;
-			sourceTree = "<group>";
-		};
-		2EF9B6CDA657C4C076DC8EC2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				49B3CDEDB52ABF84E2E25D02 /* Pods.debug.xcconfig */,
-				C784F006CD06A74448ECD5A6 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			sourceTree = "<group>";
 		};
 		3E3E44751A990C8700AAA47A = {
@@ -169,13 +93,8 @@
 				3E3E44801A990C8700AAA47A /* NexJob */,
 				3E3E449D1A990C8700AAA47A /* NexJobTests */,
 				3E3E447F1A990C8700AAA47A /* Products */,
-<<<<<<< HEAD
 				8574C59C5E9C93A09C0E7F27 /* Pods */,
 				1D63978FE3C2F0C8AC254524 /* Frameworks */,
-=======
-				2EF9B6CDA657C4C076DC8EC2 /* Pods */,
-				EDE908EE50785A1E19B551D7 /* Frameworks */,
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			);
 			sourceTree = "<group>";
 		};
@@ -193,7 +112,6 @@
 			children = (
 				3E3E44851A990C8700AAA47A /* AppDelegate.h */,
 				3E3E44861A990C8700AAA47A /* AppDelegate.m */,
-<<<<<<< HEAD
 				3E3E448B1A990C8700AAA47A /* ViewController.h */,
 				3E3E448C1A990C8700AAA47A /* ViewController.m */,
 				3E3E448E1A990C8700AAA47A /* Main.storyboard */,
@@ -201,14 +119,6 @@
 				3E3E44931A990C8700AAA47A /* LaunchScreen.xib */,
 				3E3E44BE1A992F8500AAA47A /* Parser */,
 				3E3E44B31A9922F000AAA47A /* CoreData */,
-=======
-				3E3E448E1A990C8700AAA47A /* Main.storyboard */,
-				3E3E44911A990C8700AAA47A /* Images.xcassets */,
-				5C6A17BF1A99120E00272C6B /* View Controllers */,
-				3E3E44931A990C8700AAA47A /* LaunchScreen.xib */,
-				0FB3FAA41A993FD30069C7FC /* NJDataSetA */,
-				3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */,
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 				3E3E44811A990C8700AAA47A /* Supporting Files */,
 			);
 			path = NexJob;
@@ -219,10 +129,7 @@
 			children = (
 				3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */,
 				3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */,
-<<<<<<< HEAD
 				3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */,
-=======
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 				3E3E44821A990C8700AAA47A /* Info.plist */,
 				3E3E44831A990C8700AAA47A /* main.m */,
 			);
@@ -246,7 +153,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		3E3E44B31A9922F000AAA47A /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,49 +179,6 @@
 				5DB090ABE0232B4D41DEEE01 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
-=======
-		5C6A17BF1A99120E00272C6B /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				5C6A17D51A991F9B00272C6B /* NJMainTabBarController.h */,
-				5C6A17D61A991F9B00272C6B /* NJMainTabBarController.m */,
-				5C6A17CF1A991EBA00272C6B /* NJMainNavigationViewController.h */,
-				5C6A17D01A991EBA00272C6B /* NJMainNavigationViewController.m */,
-				5C6A17C01A9912CE00272C6B /* NJMainViewController.h */,
-				5C6A17C11A9912CE00272C6B /* NJMainViewController.m */,
-				5C6A17C31A99162800272C6B /* Jobs View Controller */,
-				5C6A17C91A99164A00272C6B /* Industries View Controller */,
-			);
-			name = "View Controllers";
-			sourceTree = "<group>";
-		};
-		5C6A17C31A99162800272C6B /* Jobs View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5C6A17C41A99164600272C6B /* NJJobsViewController.h */,
-				5C6A17C51A99164600272C6B /* NJJobsViewController.m */,
-				5C6A17C61A99164600272C6B /* NJJobsViewController.xib */,
-			);
-			name = "Jobs View Controller";
-			sourceTree = "<group>";
-		};
-		5C6A17C91A99164A00272C6B /* Industries View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5C6A17CA1A99165F00272C6B /* NJIndustriesViewController.h */,
-				5C6A17CB1A99165F00272C6B /* NJIndustriesViewController.m */,
-				5C6A17CC1A99165F00272C6B /* NJIndustriesViewController.xib */,
-			);
-			name = "Industries View Controller";
-			sourceTree = "<group>";
-		};
-		EDE908EE50785A1E19B551D7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				39BC2211CCA21BF3B82F221D /* libPods.a */,
-			);
-			name = Frameworks;
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,19 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E3E44A41A990C8700AAA47A /* Build configuration list for PBXNativeTarget "NexJob" */;
 			buildPhases = (
-<<<<<<< HEAD
 				AA2E234C1AFCC9B15BA1C522 /* Check Pods Manifest.lock */,
 				3E3E447A1A990C8700AAA47A /* Sources */,
 				3E3E447B1A990C8700AAA47A /* Frameworks */,
 				3E3E447C1A990C8700AAA47A /* Resources */,
 				0F50E943CFB67D56861FB412 /* Copy Pods Resources */,
-=======
-				E4B5C057CA9AE9DE6A5B44C9 /* Check Pods Manifest.lock */,
-				3E3E447A1A990C8700AAA47A /* Sources */,
-				3E3E447B1A990C8700AAA47A /* Frameworks */,
-				3E3E447C1A990C8700AAA47A /* Resources */,
-				BD68E9BFC1BC51C7365FD3FF /* Copy Pods Resources */,
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			);
 			buildRules = (
 			);
@@ -408,15 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */,
 				3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */,
-=======
-				5C6A17CE1A99165F00272C6B /* NJIndustriesViewController.xib in Resources */,
-				3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */,
-				3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */,
-				5C6A17C81A99164600272C6B /* NJJobsViewController.xib in Resources */,
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 				3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */,
 				3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */,
 				3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */,
@@ -434,11 +282,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-<<<<<<< HEAD
 		0F50E943CFB67D56861FB412 /* Copy Pods Resources */ = {
-=======
-		BD68E9BFC1BC51C7365FD3FF /* Copy Pods Resources */ = {
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,11 +297,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-<<<<<<< HEAD
 		AA2E234C1AFCC9B15BA1C522 /* Check Pods Manifest.lock */ = {
-=======
-		E4B5C057CA9AE9DE6A5B44C9 /* Check Pods Manifest.lock */ = {
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,26 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
 				3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */,
 				3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */,
 				3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */,
 				3E3E448D1A990C8700AAA47A /* ViewController.m in Sources */,
 				3E3E44841A990C8700AAA47A /* main.m in Sources */,
-=======
-				5C6A17CD1A99165F00272C6B /* NJIndustriesViewController.m in Sources */,
-				0FB3FA9A1A9936190069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */,
-				5C6A17C71A99164600272C6B /* NJJobsViewController.m in Sources */,
-				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
-				3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */,
-				3E3E44841A990C8700AAA47A /* main.m in Sources */,
-				5C6A17D11A991EBA00272C6B /* NJMainNavigationViewController.m in Sources */,
-				5C6A17C21A9912CE00272C6B /* NJMainViewController.m in Sources */,
-				5C6A17D71A991F9B00272C6B /* NJMainTabBarController.m in Sources */,
-				0FB3FA9D1A9937AD0069C7FC /* NJDataSetAParser.m in Sources */,
-				0FB3FAA31A993F580069C7FC /* Entity.m in Sources */,
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,18 +444,10 @@
 		};
 		3E3E44A51A990C8700AAA47A /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 6B0AC3C77FB0C3FCEC7DEE6B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NexJob/Info.plist;
-=======
-			baseConfigurationReference = 49B3CDEDB52ABF84E2E25D02 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NexJob/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -637,18 +455,10 @@
 		};
 		3E3E44A61A990C8700AAA47A /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 5DB090ABE0232B4D41DEEE01 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NexJob/Info.plist;
-=======
-			baseConfigurationReference = C784F006CD06A74448ECD5A6 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NexJob/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -721,19 +531,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-<<<<<<< HEAD
-=======
-		0FB3FA981A9936190069C7FC /* NJDataSetAModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0FB3FA991A9936190069C7FC /* NJDataSetAModel.xcdatamodel */,
-			);
-			currentVersion = 0FB3FA991A9936190069C7FC /* NJDataSetAModel.xcdatamodel */;
-			path = NJDataSetAModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
->>>>>>> Added NSManagedObject subclass for NSDataSetA
 		3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
