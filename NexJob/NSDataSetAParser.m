@@ -23,12 +23,23 @@
     
     do {
         
-        if (element->firstChild)
+        if ( [[TBXML elementName:seriesElement] isEqualToString:@"cansim:Series"] ) {
             
-            [self traverseXMLElement:element->firstChild];
+            NSString *ageGroup = [TBXML valueOfAttributeNamed:@"WAGERATES" forElement:seriesElement];
+            NSString *sex = [TBXML valueOfAttributeNamed:@"SEX" forElement:seriesElement];
+            NSString *industry = [TBXML valueOfAttributeNamed:@"INDUSTRY" forElement:seriesElement];
+            NSString *typeOfWork = [TBXML valueOfAttributeNamed:@"TYPEOFWORK" forElement:seriesElement];
+            NSString *geography = [TBXML valueOfAttributeNamed:@"GEOGRAPHY" forElement:seriesElement];
+            
+            TBXMLElement *obsElement = [TBXML childElementNamed:@"cansim:Obs" parentElement:seriesElement];
+            
+            do {
+                NSString *obsValueYear = [TBXML valueOfAttributeNamed:@"OBS_VALUE" forElement:seriesElement];
+                NSString *timePeriodValue = [TBXML valueOfAttributeNamed:@"TIME_PERIOD" forElement:seriesElement];
+            } while (obsElement == obsElement->nextSibling);
+        }
         
-    } while ((element = element->nextSibling));
+    } while (seriesElement == seriesElement->nextSibling);
 }
-
 
 @end

@@ -89,9 +89,9 @@
 			children = (
 				0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */,
 				0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */,
-				0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */,
 				0FB3FAB81A9954530069C7FC /* LabourForceSurvey.h */,
 				0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */,
+				0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */,
 				0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */,
 			);
 			name = NJDataSetA;
