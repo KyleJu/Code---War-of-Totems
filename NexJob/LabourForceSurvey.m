@@ -12,12 +12,12 @@
 @implementation LabourForceSurvey
 
 @dynamic ageGroup;
-@dynamic geography;
-@dynamic obsValue;
 @dynamic sex;
-@dynamic timePeriod;
-@dynamic typeOfWork;
 @dynamic wageRates;
 @dynamic industry;
+@dynamic typesOfWork;
+@dynamic geography;
+@dynamic obsValue;
+@dynamic timePeriod;
 
 @end

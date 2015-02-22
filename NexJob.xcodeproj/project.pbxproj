@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB3FAAA1A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */; };
-		0FB3FAAE1A99437E0069C7FC /* NSDataSetAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */; };
-		0FB3FABA1A9954530069C7FC /* LabourForceSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */; };
+		0FB3FAAE1A99437E0069C7FC /* NJLabourForceSurveyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAAD1A99437E0069C7FC /* NJLabourForceSurveyParser.m */; };
 		0FB3FABC1A9954D60069C7FC /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */; };
+		0FB622901A996FE200400DB7 /* NJModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6228E1A996FE200400DB7 /* NJModel.xcdatamodeld */; };
+		0FB622931A9970FF00400DB7 /* LabourForceSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB622921A9970FF00400DB7 /* LabourForceSurvey.m */; };
 		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
 		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
-		3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */; };
 		3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E448E1A990C8700AAA47A /* Main.storyboard */; };
 		3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44911A990C8700AAA47A /* Images.xcassets */; };
 		3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44931A990C8700AAA47A /* LaunchScreen.xib */; };
@@ -43,18 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJDataSetAModel.xcdatamodel; sourceTree = "<group>"; };
-		0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataSetAParser.h; sourceTree = "<group>"; };
-		0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataSetAParser.m; sourceTree = "<group>"; };
-		0FB3FAB81A9954530069C7FC /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
-		0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey.m; sourceTree = "<group>"; };
+		0FB3FAAC1A99437E0069C7FC /* NJLabourForceSurveyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJLabourForceSurveyParser.h; sourceTree = "<group>"; };
+		0FB3FAAD1A99437E0069C7FC /* NJLabourForceSurveyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJLabourForceSurveyParser.m; sourceTree = "<group>"; };
 		0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
+		0FB6228F1A996FE200400DB7 /* NJModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJModel.xcdatamodel; sourceTree = "<group>"; };
+		0FB622911A9970FF00400DB7 /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
+		0FB622921A9970FF00400DB7 /* LabourForceSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey.m; sourceTree = "<group>"; };
 		3E3E447E1A990C8700AAA47A /* NexJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3E44821A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E3E44831A990C8700AAA47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E3E44851A990C8700AAA47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E3E44861A990C8700AAA47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E3E44891A990C8700AAA47A /* NexJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NexJob.xcdatamodel; sourceTree = "<group>"; };
 		3E3E448F1A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E3E44911A990C8700AAA47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E3E44941A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -104,19 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FB3FAAB1A9943640069C7FC /* NJDataSetA */ = {
-			isa = PBXGroup;
-			children = (
-				0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */,
-				0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */,
-				0FB3FAB81A9954530069C7FC /* LabourForceSurvey.h */,
-				0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */,
-				0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */,
-				0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */,
-			);
-			name = NJDataSetA;
-			sourceTree = "<group>";
-		};
 		1D63978FE3C2F0C8AC254524 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +140,6 @@
 				5C17B39E1A9962F20066E522 /* View Controllers */,
 				5C17B39F1A99630C0066E522 /* Categories */,
 				3E3E44931A990C8700AAA47A /* LaunchScreen.xib */,
-				0FB3FAAB1A9943640069C7FC /* NJDataSetA */,
 				3E3E44BE1A992F8500AAA47A /* Parser */,
 				3E3E44B31A9922F000AAA47A /* CoreData */,
 				3E3E44811A990C8700AAA47A /* Supporting Files */,
@@ -168,6 +152,7 @@
 			children = (
 				5C17B37C1A9962A50066E522 /* NJPrefixHeader.pch */,
 				3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */,
+				0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */,
 				3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */,
 				3E3E44821A990C8700AAA47A /* Info.plist */,
 				3E3E44831A990C8700AAA47A /* main.m */,
@@ -195,9 +180,11 @@
 		3E3E44B31A9922F000AAA47A /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				0FB622911A9970FF00400DB7 /* LabourForceSurvey.h */,
+				0FB622921A9970FF00400DB7 /* LabourForceSurvey.m */,
 				3E3E44B11A9922E200AAA47A /* JobVacancy.m */,
 				3E3E44B01A9922E200AAA47A /* JobVacancy.h */,
-				3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */,
+				0FB6228E1A996FE200400DB7 /* NJModel.xcdatamodeld */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -205,6 +192,8 @@
 		3E3E44BE1A992F8500AAA47A /* Parser */ = {
 			isa = PBXGroup;
 			children = (
+				0FB3FAAC1A99437E0069C7FC /* NJLabourForceSurveyParser.h */,
+				0FB3FAAD1A99437E0069C7FC /* NJLabourForceSurveyParser.m */,
 				3E3E44BF1A992FAB00AAA47A /* NJJobVacancyParser.h */,
 				3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */,
 			);
@@ -402,18 +391,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB622931A9970FF00400DB7 /* LabourForceSurvey.m in Sources */,
 				5C17B3891A9962A50066E522 /* NJMainTabBarController.m in Sources */,
-				0FB3FABA1A9954530069C7FC /* LabourForceSurvey.m in Sources */,
 				5C17B3841A9962A50066E522 /* NJIndustriesViewController.m in Sources */,
 				5C17B3881A9962A50066E522 /* NJMainNavigationViewController.m in Sources */,
 				5C17B3911A9962B00066E522 /* UIColor+NJAdditions.m in Sources */,
-				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
+				0FB622901A996FE200400DB7 /* NJModel.xcdatamodeld in Sources */,
 				3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */,
 				5C17B3861A9962A50066E522 /* NJJobsViewController.m in Sources */,
 				3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */,
-				0FB3FAAE1A99437E0069C7FC /* NSDataSetAParser.m in Sources */,
+				0FB3FAAE1A99437E0069C7FC /* NJLabourForceSurveyParser.m in Sources */,
 				3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */,
-				0FB3FAAA1A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */,
 				3E3E44841A990C8700AAA47A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,23 +613,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */ = {
+		0FB6228E1A996FE200400DB7 /* NJModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */,
+				0FB6228F1A996FE200400DB7 /* NJModel.xcdatamodel */,
 			);
-			currentVersion = 0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */;
-			path = NJDataSetAModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3E3E44891A990C8700AAA47A /* NexJob.xcdatamodel */,
-			);
-			currentVersion = 3E3E44891A990C8700AAA47A /* NexJob.xcdatamodel */;
-			path = NexJob.xcdatamodeld;
+			currentVersion = 0FB6228F1A996FE200400DB7 /* NJModel.xcdatamodel */;
+			path = NJModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

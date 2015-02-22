@@ -13,12 +13,12 @@
 @interface LabourForceSurvey : NSManagedObject
 
 @property (nonatomic, retain) NSString * ageGroup;
-@property (nonatomic, retain) NSString * geography;
-@property (nonatomic, retain) NSString * obsValue;
 @property (nonatomic, retain) NSString * sex;
-@property (nonatomic, retain) NSString * timePeriod;
-@property (nonatomic, retain) NSString * typeOfWork;
 @property (nonatomic, retain) NSString * wageRates;
 @property (nonatomic, retain) NSString * industry;
+@property (nonatomic, retain) NSString * typesOfWork;
+@property (nonatomic, retain) NSString * geography;
+@property (nonatomic, retain) NSString * obsValue;
+@property (nonatomic, retain) NSString * timePeriod;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  NSDataSetAParser.h
+//  NJLabourForceSurveyParser.h
 //  NexJob
 //
 //  Created by Ann Kim on 2015-02-21.
