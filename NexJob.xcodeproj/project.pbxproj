@@ -22,17 +22,12 @@
 		3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */; };
 		3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44B11A9922E200AAA47A /* JobVacancy.m */; };
 		3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */; };
-		5C17B3821A9962A50066E522 /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3681A9962A50066E522 /* NexJob.xcdatamodeld */; };
-		5C17B3831A9962A50066E522 /* NJDataSetAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B36A1A9962A50066E522 /* NJDataSetAModel.xcdatamodeld */; };
 		5C17B3841A9962A50066E522 /* NJIndustriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B36D1A9962A50066E522 /* NJIndustriesViewController.m */; };
 		5C17B3851A9962A50066E522 /* NJIndustriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B36E1A9962A50066E522 /* NJIndustriesViewController.xib */; };
 		5C17B3861A9962A50066E522 /* NJJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3701A9962A50066E522 /* NJJobsViewController.m */; };
 		5C17B3871A9962A50066E522 /* NJJobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B3711A9962A50066E522 /* NJJobsViewController.xib */; };
 		5C17B3881A9962A50066E522 /* NJMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3731A9962A50066E522 /* NJMainNavigationViewController.m */; };
 		5C17B3891A9962A50066E522 /* NJMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3751A9962A50066E522 /* NJMainTabBarController.m */; };
-		5C17B38A1A9962A50066E522 /* NJMainTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B3761A9962A50066E522 /* NJMainTabBarController.xib */; };
-		5C17B38B1A9962A50066E522 /* NJMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3781A9962A50066E522 /* NJMainTabBarViewController.m */; };
-		5C17B38C1A9962A50066E522 /* NJMainTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B3791A9962A50066E522 /* NJMainTabBarViewController.xib */; };
 		5C17B3911A9962B00066E522 /* UIColor+NJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3901A9962B00066E522 /* UIColor+NJAdditions.m */; };
 		B988DBEF70855A8FACDCFB91 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407DFA75DDE5EFB2401951B0 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -73,8 +68,6 @@
 		3E3E44BF1A992FAB00AAA47A /* NJJobVacancyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobVacancyParser.h; sourceTree = "<group>"; };
 		3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobVacancyParser.m; sourceTree = "<group>"; };
 		407DFA75DDE5EFB2401951B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C17B3691A9962A50066E522 /* NexJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NexJob.xcdatamodel; sourceTree = "<group>"; };
-		5C17B36B1A9962A50066E522 /* NJDataSetAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJDataSetAModel.xcdatamodel; sourceTree = "<group>"; };
 		5C17B36C1A9962A50066E522 /* NJIndustriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIndustriesViewController.h; sourceTree = "<group>"; };
 		5C17B36D1A9962A50066E522 /* NJIndustriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIndustriesViewController.m; sourceTree = "<group>"; };
 		5C17B36E1A9962A50066E522 /* NJIndustriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJIndustriesViewController.xib; sourceTree = "<group>"; };
@@ -85,10 +78,6 @@
 		5C17B3731A9962A50066E522 /* NJMainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainNavigationViewController.m; sourceTree = "<group>"; };
 		5C17B3741A9962A50066E522 /* NJMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainTabBarController.h; sourceTree = "<group>"; };
 		5C17B3751A9962A50066E522 /* NJMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainTabBarController.m; sourceTree = "<group>"; };
-		5C17B3761A9962A50066E522 /* NJMainTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJMainTabBarController.xib; sourceTree = "<group>"; };
-		5C17B3771A9962A50066E522 /* NJMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainTabBarViewController.h; sourceTree = "<group>"; };
-		5C17B3781A9962A50066E522 /* NJMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainTabBarViewController.m; sourceTree = "<group>"; };
-		5C17B3791A9962A50066E522 /* NJMainTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJMainTabBarViewController.xib; sourceTree = "<group>"; };
 		5C17B37C1A9962A50066E522 /* NJPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJPrefixHeader.pch; sourceTree = "<group>"; };
 		5C17B37F1A9962A50066E522 /* UIColor+NJAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NJAdditions.h"; sourceTree = "<group>"; };
 		5C17B3901A9962B00066E522 /* UIColor+NJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NJAdditions.m"; sourceTree = "<group>"; };
@@ -165,8 +154,6 @@
 				3E3E44911A990C8700AAA47A /* Images.xcassets */,
 				5C17B39E1A9962F20066E522 /* View Controllers */,
 				5C17B39F1A99630C0066E522 /* Categories */,
-				5C17B3681A9962A50066E522 /* NexJob.xcdatamodeld */,
-				5C17B36A1A9962A50066E522 /* NJDataSetAModel.xcdatamodeld */,
 				3E3E44931A990C8700AAA47A /* LaunchScreen.xib */,
 				0FB3FAAB1A9943640069C7FC /* NJDataSetA */,
 				3E3E44BE1A992F8500AAA47A /* Parser */,
@@ -231,10 +218,6 @@
 				5C17B3731A9962A50066E522 /* NJMainNavigationViewController.m */,
 				5C17B3741A9962A50066E522 /* NJMainTabBarController.h */,
 				5C17B3751A9962A50066E522 /* NJMainTabBarController.m */,
-				5C17B3761A9962A50066E522 /* NJMainTabBarController.xib */,
-				5C17B3771A9962A50066E522 /* NJMainTabBarViewController.h */,
-				5C17B3781A9962A50066E522 /* NJMainTabBarViewController.m */,
-				5C17B3791A9962A50066E522 /* NJMainTabBarViewController.xib */,
 				5C17B3A01A99639D0066E522 /* Jobs View Controller */,
 				5C17B3A11A9963A80066E522 /* Industries View Controller */,
 			);
@@ -366,11 +349,9 @@
 				3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */,
 				3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */,
 				0FB3FABC1A9954D60069C7FC /* NJDataSetA.xml in Resources */,
-				5C17B38A1A9962A50066E522 /* NJMainTabBarController.xib in Resources */,
 				3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */,
 				5C17B3871A9962A50066E522 /* NJJobsViewController.xib in Resources */,
 				5C17B3851A9962A50066E522 /* NJIndustriesViewController.xib in Resources */,
-				5C17B38C1A9962A50066E522 /* NJMainTabBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,14 +403,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C17B3891A9962A50066E522 /* NJMainTabBarController.m in Sources */,
-				5C17B3821A9962A50066E522 /* NexJob.xcdatamodeld in Sources */,
 				0FB3FABA1A9954530069C7FC /* LabourForceSurvey.m in Sources */,
 				5C17B3841A9962A50066E522 /* NJIndustriesViewController.m in Sources */,
 				5C17B3881A9962A50066E522 /* NJMainNavigationViewController.m in Sources */,
 				5C17B3911A9962B00066E522 /* UIColor+NJAdditions.m in Sources */,
-				5C17B3831A9962A50066E522 /* NJDataSetAModel.xcdatamodeld in Sources */,
 				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
-				5C17B38B1A9962A50066E522 /* NJMainTabBarViewController.m in Sources */,
 				3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */,
 				5C17B3861A9962A50066E522 /* NJJobsViewController.m in Sources */,
 				3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */,
@@ -664,26 +642,6 @@
 			);
 			currentVersion = 3E3E44891A990C8700AAA47A /* NexJob.xcdatamodel */;
 			path = NexJob.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		5C17B3681A9962A50066E522 /* NexJob.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5C17B3691A9962A50066E522 /* NexJob.xcdatamodel */,
-			);
-			currentVersion = 5C17B3691A9962A50066E522 /* NexJob.xcdatamodel */;
-			path = NexJob.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		5C17B36A1A9962A50066E522 /* NJDataSetAModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5C17B36B1A9962A50066E522 /* NJDataSetAModel.xcdatamodel */,
-			);
-			currentVersion = 5C17B36B1A9962A50066E522 /* NJDataSetAModel.xcdatamodel */;
-			path = NJDataSetAModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
