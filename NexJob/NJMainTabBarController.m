@@ -14,9 +14,18 @@
 
 @implementation NJMainTabBarController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tabBarController.tabBar.translucent = NO;
 }
 
 - (void)didReceiveMemoryWarning {

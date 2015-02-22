@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NJMainViewController.h"
 
-@interface NJJobsViewController : NJMainViewController
+@interface NJJobsViewController : UIViewController
 
 @end

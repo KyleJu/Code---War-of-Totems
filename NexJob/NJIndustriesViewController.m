@@ -10,27 +10,25 @@
 
 @interface NJIndustriesViewController ()
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *widthOfIndicatorView;
+
 @end
 
 @implementation NJIndustriesViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self)
-    {
-        self.tabBarItem.title = @"Industries";
-    }
-    return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidLayoutSubviews
+{
+    self.widthOfIndicatorView.constant = self.view.frame.size.width/2;
 }
 
 /*

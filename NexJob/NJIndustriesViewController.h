@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NJMainViewController.h"
 
-@interface NJIndustriesViewController : NJMainViewController
+@interface NJIndustriesViewController : UIViewController
 
 @end

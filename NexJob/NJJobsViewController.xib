@@ -6,14 +6,54 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NJJobsViewController">
             <connections>
+                <outlet property="tableView" destination="1vI-JV-Z1r" id="Cf3-2z-Wcd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="widthOfIndicatorView" destination="PyR-UZ-bV0" id="Zcq-k8-q0s"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="64" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="1vI-JV-Z1r">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="8kI-iC-p1y"/>
+                        <outlet property="delegate" destination="-1" id="rZL-fG-UcO"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66P-DK-tyy">
+                    <rect key="frame" x="0.0" y="524" width="320" height="2"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HGJ-5z-dXg">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="2"/>
+                            <color key="backgroundColor" red="0.84861576557159424" green="0.18694770336151123" blue="0.14471802115440369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="160" id="PyR-UZ-bV0"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93325155973434448" green="0.93338561058044434" blue="0.93322223424911499" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="HGJ-5z-dXg" firstAttribute="leading" secondItem="66P-DK-tyy" secondAttribute="leading" id="5dW-YZ-dH8"/>
+                        <constraint firstAttribute="bottom" secondItem="HGJ-5z-dXg" secondAttribute="bottom" id="L24-xw-CMe"/>
+                        <constraint firstItem="HGJ-5z-dXg" firstAttribute="top" secondItem="66P-DK-tyy" secondAttribute="top" id="QmU-id-T3f"/>
+                        <constraint firstAttribute="height" constant="2" id="pl9-k2-Wmf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1vI-JV-Z1r" secondAttribute="trailing" id="S9i-iG-xar"/>
+                <constraint firstAttribute="bottom" secondItem="1vI-JV-Z1r" secondAttribute="bottom" constant="44" id="Zdb-5h-993"/>
+                <constraint firstItem="66P-DK-tyy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eh3-sB-g4b"/>
+                <constraint firstAttribute="bottom" secondItem="66P-DK-tyy" secondAttribute="bottom" constant="42" id="h3q-ak-Bc0"/>
+                <constraint firstItem="1vI-JV-Z1r" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lRS-Be-xDZ"/>
+                <constraint firstAttribute="trailing" secondItem="66P-DK-tyy" secondAttribute="trailing" id="niL-D3-EJW"/>
+                <constraint firstItem="1vI-JV-Z1r" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="trq-XR-ivP"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
             <point key="canvasLocation" x="269" y="355"/>
         </view>
     </objects>

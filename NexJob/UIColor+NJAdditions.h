@@ -1,5 +1,5 @@
 //
-//  NJMainViewController.h
+//  UIColor+NJAdditions.h
 //  NexJob
 //
 //  Created by KP on 2/21/15.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NJMainViewController : UIViewController
+@interface UIColor (NJAdditions)
+
++ (UIColor*)nj_redColor;
++ (UIColor*)nj_greyColor;
 
 @end
