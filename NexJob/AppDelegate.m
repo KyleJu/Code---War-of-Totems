@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "NJJobVacancyParser.h"
 
+#define kHeightOfTabBar 42.0f
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +19,41 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.S
+    
+    // Appeareances
+    
+    [[UITabBarItem appearanceWhenContainedIn:[NJMainTabBarController class], nil] setTitleTextAttributes: @{NSForegroundColorAttributeName : [UIColor blackColor], NSFontAttributeName : [UIFont fontWithName:@"AvenirNext-Regular" size:17]} forState:UIControlStateNormal];
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setBackgroundColor:[UIColor nj_greyColor]];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.jobsVC = [[NJJobsViewController alloc] init];
+    self.industriesVC = [[NJIndustriesViewController alloc] init];
+    
+    NJMainNavigationViewController *navController1 = [[NJMainNavigationViewController alloc] initWithRootViewController:self.jobsVC];
+    NJMainNavigationViewController *navController2 = [[NJMainNavigationViewController alloc] initWithRootViewController:self.industriesVC];
+    
+    
+    self.tabBarController = [[NJMainTabBarController alloc] init];
+    self.tabBarController.tabBar.frame = CGRectMake(0, self.window.frame.size.height - kHeightOfTabBar, self.window.frame.size.width, kHeightOfTabBar);
+    
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navController1, navController2, nil];
+    
+    UITabBarItem *itemJob = [self.tabBarController.tabBar.items objectAtIndex:0];
+    UITabBarItem *itemIndustry = [self.tabBarController.tabBar.items objectAtIndex:1];
+    
+    [itemJob setTitle:@"Jobs"];
+    [itemIndustry setTitle:@"Industries"];
+    
+    [itemJob setTitlePositionAdjustment:UIOffsetMake(0, -14.0)];
+    [itemIndustry setTitlePositionAdjustment:UIOffsetMake(0, -14.0)];
+    
+    self.tabBarController.selectedIndex = 0;
+    
+    self.window.rootViewController = self.tabBarController;
+    
     return YES;
 }
 
