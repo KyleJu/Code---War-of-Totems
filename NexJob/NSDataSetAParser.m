@@ -11,7 +11,6 @@
 @implementation NSDataSetAParser
 
 + (void)loadXML {
-    
     TBXML *sourceXML = [[TBXML alloc] initWithXMLFile:@"NJDataSetA.xml" error:nil];
     
     TBXMLElement *rootElement = sourceXML.rootXMLElement;
@@ -20,6 +19,7 @@
 }
 
 + (void)traverseXMLElement:(TBXMLElement *)element {
+    TBXMLElement *seriesElement = [TBXML childElementNamed:@"cansim:Series" parentElement:element];
     
     do {
         

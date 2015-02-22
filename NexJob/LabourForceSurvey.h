@@ -19,5 +19,6 @@
 @property (nonatomic, retain) NSString * timePeriod;
 @property (nonatomic, retain) NSString * typeOfWork;
 @property (nonatomic, retain) NSString * wageRates;
+@property (nonatomic, retain) NSString * industry;
 
 @end

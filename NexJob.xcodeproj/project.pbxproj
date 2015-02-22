@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		0FB3FAAA1A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */; };
 		0FB3FAAE1A99437E0069C7FC /* NSDataSetAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */; };
-		0FB3FAB71A9945AE0069C7FC /* LabourForceSurvey..m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAB61A9945AE0069C7FC /* LabourForceSurvey..m */; };
+		0FB3FABA1A9954530069C7FC /* LabourForceSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */; };
+		0FB3FABC1A9954D60069C7FC /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */; };
 		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
 		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
 		3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44881A990C8700AAA47A /* NexJob.xcdatamodeld */; };
@@ -18,7 +19,6 @@
 		3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44931A990C8700AAA47A /* LaunchScreen.xib */; };
 		3E3E44A11A990C8700AAA47A /* NexJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44A01A990C8700AAA47A /* NexJobTests.m */; };
 		3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */; };
-		3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */; };
 		3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */; };
 		3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44B11A9922E200AAA47A /* JobVacancy.m */; };
 		3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */; };
@@ -39,8 +39,9 @@
 		0FB3FAA91A9941DC0069C7FC /* NJDataSetAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJDataSetAModel.xcdatamodel; sourceTree = "<group>"; };
 		0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataSetAParser.h; sourceTree = "<group>"; };
 		0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataSetAParser.m; sourceTree = "<group>"; };
-		0FB3FAB51A9945AE0069C7FC /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
-		0FB3FAB61A9945AE0069C7FC /* LabourForceSurvey..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey..m; sourceTree = "<group>"; };
+		0FB3FAB81A9954530069C7FC /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
+		0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey.m; sourceTree = "<group>"; };
+		0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
 		3E3E447E1A990C8700AAA47A /* NexJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3E44821A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E3E44831A990C8700AAA47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		3E3E449F1A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E3E44A01A990C8700AAA47A /* NexJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexJobTests.m; sourceTree = "<group>"; };
 		3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datasetRef.txt; sourceTree = "<group>"; };
-		3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
 		3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetB.xml; sourceTree = "<group>"; };
 		3E3E44B01A9922E200AAA47A /* JobVacancy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobVacancy.h; sourceTree = "<group>"; };
 		3E3E44B11A9922E200AAA47A /* JobVacancy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobVacancy.m; sourceTree = "<group>"; };
@@ -89,10 +89,10 @@
 			children = (
 				0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */,
 				0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */,
-				0FB3FAB51A9945AE0069C7FC /* LabourForceSurvey.h */,
-				0FB3FAB61A9945AE0069C7FC /* LabourForceSurvey..m */,
 				0FB3FAA81A9941DC0069C7FC /* NJDataSetAModel.xcdatamodeld */,
-				3E3E44AC1A990ECF00AAA47A /* NJDataSetA.xml */,
+				0FB3FAB81A9954530069C7FC /* LabourForceSurvey.h */,
+				0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */,
+				0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */,
 			);
 			name = NJDataSetA;
 			sourceTree = "<group>";
@@ -282,8 +282,8 @@
 				3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */,
 				3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */,
 				3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */,
-				3E3E44AD1A990ECF00AAA47A /* NJDataSetA.xml in Resources */,
 				3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */,
+				0FB3FABC1A9954D60069C7FC /* NJDataSetA.xml in Resources */,
 				3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB3FAB71A9945AE0069C7FC /* LabourForceSurvey..m in Sources */,
+				0FB3FABA1A9954530069C7FC /* LabourForceSurvey.m in Sources */,
 				3E3E448A1A990C8700AAA47A /* NexJob.xcdatamodeld in Sources */,
 				3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */,
 				3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */,

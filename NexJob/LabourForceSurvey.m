@@ -18,5 +18,6 @@
 @dynamic timePeriod;
 @dynamic typeOfWork;
 @dynamic wageRates;
+@dynamic industry;
 
 @end
