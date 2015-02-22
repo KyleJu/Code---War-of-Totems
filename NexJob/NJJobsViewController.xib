@@ -54,7 +54,7 @@
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
-            <point key="canvasLocation" x="269" y="355"/>
+            <point key="canvasLocation" x="-12" y="29"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -19,10 +19,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-<<<<<<< Updated upstream
-    // Override point for customization after application launch.
-    [NJJobVacancyParser loadXML];
-=======
     
     // Appeareances
     
@@ -58,7 +54,6 @@
     
     self.window.rootViewController = self.tabBarController;
     
->>>>>>> Stashed changes
     return YES;
 }
 
