@@ -7,96 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB3FAAE1A99437E0069C7FC /* NJLabourForceSurveyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB3FAAD1A99437E0069C7FC /* NJLabourForceSurveyParser.m */; };
-		0FB3FABC1A9954D60069C7FC /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */; };
-		0FB622901A996FE200400DB7 /* NJModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6228E1A996FE200400DB7 /* NJModel.xcdatamodeld */; };
-		0FB622931A9970FF00400DB7 /* LabourForceSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB622921A9970FF00400DB7 /* LabourForceSurvey.m */; };
-		3E3E44841A990C8700AAA47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44831A990C8700AAA47A /* main.m */; };
-		3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44861A990C8700AAA47A /* AppDelegate.m */; };
-		3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E448E1A990C8700AAA47A /* Main.storyboard */; };
-		3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44911A990C8700AAA47A /* Images.xcassets */; };
-		3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44931A990C8700AAA47A /* LaunchScreen.xib */; };
-		3E3E44A11A990C8700AAA47A /* NexJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44A01A990C8700AAA47A /* NexJobTests.m */; };
-		3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */; };
-		3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */; };
-		3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */; };
-		5C17B3841A9962A50066E522 /* NJIndustriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B36D1A9962A50066E522 /* NJIndustriesViewController.m */; };
-		5C17B3851A9962A50066E522 /* NJIndustriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B36E1A9962A50066E522 /* NJIndustriesViewController.xib */; };
-		5C17B3861A9962A50066E522 /* NJJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3701A9962A50066E522 /* NJJobsViewController.m */; };
-		5C17B3871A9962A50066E522 /* NJJobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B3711A9962A50066E522 /* NJJobsViewController.xib */; };
-		5C17B3881A9962A50066E522 /* NJMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3731A9962A50066E522 /* NJMainNavigationViewController.m */; };
-		5C17B3891A9962A50066E522 /* NJMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3751A9962A50066E522 /* NJMainTabBarController.m */; };
-		5C17B3911A9962B00066E522 /* UIColor+NJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B3901A9962B00066E522 /* UIColor+NJAdditions.m */; };
-		B988DBEF70855A8FACDCFB91 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407DFA75DDE5EFB2401951B0 /* libPods.a */; };
+		3E07EDE01A9AF8B600B0B29C /* Provinces.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E07EDDF1A9AF8B600B0B29C /* Provinces.m */; };
+		5C17B4151A9A57420066E522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4141A9A57420066E522 /* main.m */; };
+		5C17B41B1A9A57420066E522 /* NexJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4191A9A57420066E522 /* NexJob.xcdatamodeld */; };
+		5C17B4211A9A57420066E522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B41F1A9A57420066E522 /* Main.storyboard */; };
+		5C17B4231A9A57420066E522 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4221A9A57420066E522 /* Images.xcassets */; };
+		5C17B4321A9A57430066E522 /* NexJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4311A9A57430066E522 /* NexJobTests.m */; };
+		5C17B43D1A9A59440066E522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B43C1A9A59440066E522 /* AppDelegate.m */; };
+		5C17B43F1A9A599A0066E522 /* datasetRef.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B43E1A9A599A0066E522 /* datasetRef.txt */; };
+		5C17B4421A9A59D30066E522 /* NJDataSetA.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4401A9A59D30066E522 /* NJDataSetA.xml */; };
+		5C17B4431A9A59D30066E522 /* NJDataSetB.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4411A9A59D30066E522 /* NJDataSetB.xml */; };
+		5C17B4631A9A5A0B0066E522 /* NJIndustriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4451A9A5A0B0066E522 /* NJIndustriesViewController.m */; };
+		5C17B4641A9A5A0B0066E522 /* NJIndustriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4461A9A5A0B0066E522 /* NJIndustriesViewController.xib */; };
+		5C17B4651A9A5A0B0066E522 /* NJIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4481A9A5A0B0066E522 /* NJIntroViewController.m */; };
+		5C17B4661A9A5A0B0066E522 /* NJIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4491A9A5A0B0066E522 /* NJIntroViewController.xib */; };
+		5C17B4671A9A5A0B0066E522 /* NJJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B44B1A9A5A0B0066E522 /* NJJobsViewController.m */; };
+		5C17B4681A9A5A0B0066E522 /* NJJobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B44C1A9A5A0B0066E522 /* NJJobsViewController.xib */; };
+		5C17B4691A9A5A0B0066E522 /* NJJobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B44E1A9A5A0B0066E522 /* NJJobTableViewCell.m */; };
+		5C17B46A1A9A5A0B0066E522 /* NJJobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B44F1A9A5A0B0066E522 /* NJJobTableViewCell.xib */; };
+		5C17B46B1A9A5A0B0066E522 /* NJMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4511A9A5A0B0066E522 /* NJMainNavigationViewController.m */; };
+		5C17B46C1A9A5A0B0066E522 /* NJMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4531A9A5A0B0066E522 /* NJMainTabBarController.m */; };
+		5C17B46D1A9A5A0B0066E522 /* NJRestProvinceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4561A9A5A0B0066E522 /* NJRestProvinceTableViewCell.m */; };
+		5C17B46E1A9A5A0B0066E522 /* NJRestProvinceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4571A9A5A0B0066E522 /* NJRestProvinceTableViewCell.xib */; };
+		5C17B46F1A9A5A0B0066E522 /* NJStudyFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4591A9A5A0B0066E522 /* NJStudyFieldTableViewCell.m */; };
+		5C17B4701A9A5A0B0066E522 /* NJStudyFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B45A1A9A5A0B0066E522 /* NJStudyFieldTableViewCell.xib */; };
+		5C17B4711A9A5A0B0066E522 /* NJStudyFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B45C1A9A5A0B0066E522 /* NJStudyFieldViewController.m */; };
+		5C17B4721A9A5A0B0066E522 /* NJStudyFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B45D1A9A5A0B0066E522 /* NJStudyFieldViewController.xib */; };
+		5C17B4731A9A5A0B0066E522 /* NJTopProvinceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B45F1A9A5A0B0066E522 /* NJTopProvinceTableViewCell.m */; };
+		5C17B4741A9A5A0B0066E522 /* NJTopProvinceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4601A9A5A0B0066E522 /* NJTopProvinceTableViewCell.xib */; };
+		5C17B4751A9A5A0B0066E522 /* UIColor+NJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4621A9A5A0B0066E522 /* UIColor+NJAdditions.m */; };
+		5C17B47C1A9A5C070066E522 /* NJInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B47A1A9A5C070066E522 /* NJInfoViewController.m */; };
+		5C17B47D1A9A5C070066E522 /* NJInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B47B1A9A5C070066E522 /* NJInfoViewController.xib */; };
+		5C17B4811A9A7DB20066E522 /* JobProjection.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B47E1A9A7DB20066E522 /* JobProjection.xml */; };
+		5C17B4821A9A7DB20066E522 /* JobVacancy.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B47F1A9A7DB20066E522 /* JobVacancy.xml */; };
+		5C17B4831A9A7DB20066E522 /* LabourForceSurvey.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5C17B4801A9A7DB20066E522 /* LabourForceSurvey.xml */; };
+		5C17B48B1A9A801F0066E522 /* NJJobProjectionFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4861A9A801F0066E522 /* NJJobProjectionFetch.m */; };
+		5C17B48C1A9A801F0066E522 /* NJJobProjectionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4881A9A801F0066E522 /* NJJobProjectionParser.m */; };
+		5C17B48D1A9A801F0066E522 /* NJLabourForceSurveyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B48A1A9A801F0066E522 /* NJLabourForceSurveyParser.m */; };
+		5C17B49D1A9A821B0066E522 /* JobProjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4981A9A821B0066E522 /* JobProjection.m */; };
+		5C17B49F1A9A821B0066E522 /* LabourForceSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B49C1A9A821B0066E522 /* LabourForceSurvey.m */; };
+		5C17B4A51A9A91DF0066E522 /* JobVacancy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4A41A9A91DF0066E522 /* JobVacancy.m */; };
+		5C17B4BD1A9A93660066E522 /* FetchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4B61A9A93660066E522 /* FetchHelper.m */; };
+		5C17B4BE1A9A93660066E522 /* HourlyWageAndEmployerNumFetchHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4B81A9A93660066E522 /* HourlyWageAndEmployerNumFetchHelp.m */; };
+		5C17B4BF1A9A93660066E522 /* NJJobVacancyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4BA1A9A93660066E522 /* NJJobVacancyParser.m */; };
+		5C17B4C01A9A93660066E522 /* provincesCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17B4BC1A9A93660066E522 /* provincesCoreData.m */; };
+		A8DC17915783D989E69E4D47 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 525C38F1F736F8161BFC43E7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3E3E449B1A990C8700AAA47A /* PBXContainerItemProxy */ = {
+		5C17B42C1A9A57430066E522 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3E3E44761A990C8700AAA47A /* Project object */;
+			containerPortal = 5C17B4071A9A57420066E522 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E3E447D1A990C8700AAA47A;
+			remoteGlobalIDString = 5C17B40E1A9A57420066E522;
 			remoteInfo = NexJob;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		0FB3FAAC1A99437E0069C7FC /* NJLabourForceSurveyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJLabourForceSurveyParser.h; sourceTree = "<group>"; };
-		0FB3FAAD1A99437E0069C7FC /* NJLabourForceSurveyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJLabourForceSurveyParser.m; sourceTree = "<group>"; };
-=======
-		0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataSetAParser.h; sourceTree = "<group>"; };
-		0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataSetAParser.m; sourceTree = "<group>"; };
-		0FB3FAB81A9954530069C7FC /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
-		0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey.m; sourceTree = "<group>"; };
->>>>>>> fix
-		0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
-		0FB6228F1A996FE200400DB7 /* NJModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NJModel.xcdatamodel; sourceTree = "<group>"; };
-		0FB622911A9970FF00400DB7 /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
-		0FB622921A9970FF00400DB7 /* LabourForceSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey.m; sourceTree = "<group>"; };
-		3E3E447E1A990C8700AAA47A /* NexJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E3E44821A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E3E44831A990C8700AAA47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E3E44851A990C8700AAA47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3E3E44861A990C8700AAA47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E3E448F1A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E3E44911A990C8700AAA47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3E3E44941A990C8700AAA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3E3E449A1A990C8700AAA47A /* NexJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E3E449F1A990C8700AAA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E3E44A01A990C8700AAA47A /* NexJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexJobTests.m; sourceTree = "<group>"; };
-		3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datasetRef.txt; sourceTree = "<group>"; };
-		3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetB.xml; sourceTree = "<group>"; };
-		3E3E44BF1A992FAB00AAA47A /* NJJobVacancyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobVacancyParser.h; sourceTree = "<group>"; };
-		3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobVacancyParser.m; sourceTree = "<group>"; };
-		407DFA75DDE5EFB2401951B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C17B36C1A9962A50066E522 /* NJIndustriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIndustriesViewController.h; sourceTree = "<group>"; };
-		5C17B36D1A9962A50066E522 /* NJIndustriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIndustriesViewController.m; sourceTree = "<group>"; };
-		5C17B36E1A9962A50066E522 /* NJIndustriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJIndustriesViewController.xib; sourceTree = "<group>"; };
-		5C17B36F1A9962A50066E522 /* NJJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobsViewController.h; sourceTree = "<group>"; };
-		5C17B3701A9962A50066E522 /* NJJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobsViewController.m; sourceTree = "<group>"; };
-		5C17B3711A9962A50066E522 /* NJJobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJJobsViewController.xib; sourceTree = "<group>"; };
-		5C17B3721A9962A50066E522 /* NJMainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainNavigationViewController.h; sourceTree = "<group>"; };
-		5C17B3731A9962A50066E522 /* NJMainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainNavigationViewController.m; sourceTree = "<group>"; };
-		5C17B3741A9962A50066E522 /* NJMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainTabBarController.h; sourceTree = "<group>"; };
-		5C17B3751A9962A50066E522 /* NJMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainTabBarController.m; sourceTree = "<group>"; };
-		5C17B37C1A9962A50066E522 /* NJPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJPrefixHeader.pch; sourceTree = "<group>"; };
-		5C17B37F1A9962A50066E522 /* UIColor+NJAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NJAdditions.h"; sourceTree = "<group>"; };
-		5C17B3901A9962B00066E522 /* UIColor+NJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NJAdditions.m"; sourceTree = "<group>"; };
-		5DB090ABE0232B4D41DEEE01 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		6B0AC3C77FB0C3FCEC7DEE6B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		0FCAE223C9C557A46CEE4358 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3E07EDDE1A9AF8B600B0B29C /* Provinces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Provinces.h; path = NexJob/Provinces.h; sourceTree = "<group>"; };
+		3E07EDDF1A9AF8B600B0B29C /* Provinces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Provinces.m; path = NexJob/Provinces.m; sourceTree = "<group>"; };
+		525C38F1F736F8161BFC43E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		544EF043772C676F68C9B33C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5C17B40F1A9A57420066E522 /* NexJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C17B4131A9A57420066E522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C17B4141A9A57420066E522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C17B41A1A9A57420066E522 /* NexJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NexJob.xcdatamodel; sourceTree = "<group>"; };
+		5C17B4201A9A57420066E522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C17B4221A9A57420066E522 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C17B42B1A9A57430066E522 /* NexJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C17B4301A9A57430066E522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C17B4311A9A57430066E522 /* NexJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexJobTests.m; sourceTree = "<group>"; };
+		5C17B43B1A9A59440066E522 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C17B43C1A9A59440066E522 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C17B43E1A9A599A0066E522 /* datasetRef.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datasetRef.txt; sourceTree = "<group>"; };
+		5C17B4401A9A59D30066E522 /* NJDataSetA.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetA.xml; sourceTree = "<group>"; };
+		5C17B4411A9A59D30066E522 /* NJDataSetB.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NJDataSetB.xml; sourceTree = "<group>"; };
+		5C17B4441A9A5A0B0066E522 /* NJIndustriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIndustriesViewController.h; sourceTree = "<group>"; };
+		5C17B4451A9A5A0B0066E522 /* NJIndustriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIndustriesViewController.m; sourceTree = "<group>"; };
+		5C17B4461A9A5A0B0066E522 /* NJIndustriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJIndustriesViewController.xib; sourceTree = "<group>"; };
+		5C17B4471A9A5A0B0066E522 /* NJIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIntroViewController.h; sourceTree = "<group>"; };
+		5C17B4481A9A5A0B0066E522 /* NJIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIntroViewController.m; sourceTree = "<group>"; };
+		5C17B4491A9A5A0B0066E522 /* NJIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJIntroViewController.xib; sourceTree = "<group>"; };
+		5C17B44A1A9A5A0B0066E522 /* NJJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobsViewController.h; sourceTree = "<group>"; };
+		5C17B44B1A9A5A0B0066E522 /* NJJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobsViewController.m; sourceTree = "<group>"; };
+		5C17B44C1A9A5A0B0066E522 /* NJJobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJJobsViewController.xib; sourceTree = "<group>"; };
+		5C17B44D1A9A5A0B0066E522 /* NJJobTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobTableViewCell.h; sourceTree = "<group>"; };
+		5C17B44E1A9A5A0B0066E522 /* NJJobTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobTableViewCell.m; sourceTree = "<group>"; };
+		5C17B44F1A9A5A0B0066E522 /* NJJobTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJJobTableViewCell.xib; sourceTree = "<group>"; };
+		5C17B4501A9A5A0B0066E522 /* NJMainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainNavigationViewController.h; sourceTree = "<group>"; };
+		5C17B4511A9A5A0B0066E522 /* NJMainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainNavigationViewController.m; sourceTree = "<group>"; };
+		5C17B4521A9A5A0B0066E522 /* NJMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMainTabBarController.h; sourceTree = "<group>"; };
+		5C17B4531A9A5A0B0066E522 /* NJMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMainTabBarController.m; sourceTree = "<group>"; };
+		5C17B4541A9A5A0B0066E522 /* NJPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJPrefixHeader.pch; sourceTree = "<group>"; };
+		5C17B4551A9A5A0B0066E522 /* NJRestProvinceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJRestProvinceTableViewCell.h; sourceTree = "<group>"; };
+		5C17B4561A9A5A0B0066E522 /* NJRestProvinceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJRestProvinceTableViewCell.m; sourceTree = "<group>"; };
+		5C17B4571A9A5A0B0066E522 /* NJRestProvinceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJRestProvinceTableViewCell.xib; sourceTree = "<group>"; };
+		5C17B4581A9A5A0B0066E522 /* NJStudyFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJStudyFieldTableViewCell.h; sourceTree = "<group>"; };
+		5C17B4591A9A5A0B0066E522 /* NJStudyFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJStudyFieldTableViewCell.m; sourceTree = "<group>"; };
+		5C17B45A1A9A5A0B0066E522 /* NJStudyFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJStudyFieldTableViewCell.xib; sourceTree = "<group>"; };
+		5C17B45B1A9A5A0B0066E522 /* NJStudyFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJStudyFieldViewController.h; sourceTree = "<group>"; };
+		5C17B45C1A9A5A0B0066E522 /* NJStudyFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJStudyFieldViewController.m; sourceTree = "<group>"; };
+		5C17B45D1A9A5A0B0066E522 /* NJStudyFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJStudyFieldViewController.xib; sourceTree = "<group>"; };
+		5C17B45E1A9A5A0B0066E522 /* NJTopProvinceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTopProvinceTableViewCell.h; sourceTree = "<group>"; };
+		5C17B45F1A9A5A0B0066E522 /* NJTopProvinceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTopProvinceTableViewCell.m; sourceTree = "<group>"; };
+		5C17B4601A9A5A0B0066E522 /* NJTopProvinceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJTopProvinceTableViewCell.xib; sourceTree = "<group>"; };
+		5C17B4611A9A5A0B0066E522 /* UIColor+NJAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NJAdditions.h"; sourceTree = "<group>"; };
+		5C17B4621A9A5A0B0066E522 /* UIColor+NJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NJAdditions.m"; sourceTree = "<group>"; };
+		5C17B4791A9A5C070066E522 /* NJInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJInfoViewController.h; sourceTree = "<group>"; };
+		5C17B47A1A9A5C070066E522 /* NJInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJInfoViewController.m; sourceTree = "<group>"; };
+		5C17B47B1A9A5C070066E522 /* NJInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJInfoViewController.xib; sourceTree = "<group>"; };
+		5C17B47E1A9A7DB20066E522 /* JobProjection.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JobProjection.xml; sourceTree = "<group>"; };
+		5C17B47F1A9A7DB20066E522 /* JobVacancy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JobVacancy.xml; sourceTree = "<group>"; };
+		5C17B4801A9A7DB20066E522 /* LabourForceSurvey.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LabourForceSurvey.xml; sourceTree = "<group>"; };
+		5C17B4851A9A801F0066E522 /* NJJobProjectionFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobProjectionFetch.h; sourceTree = "<group>"; };
+		5C17B4861A9A801F0066E522 /* NJJobProjectionFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobProjectionFetch.m; sourceTree = "<group>"; };
+		5C17B4871A9A801F0066E522 /* NJJobProjectionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobProjectionParser.h; sourceTree = "<group>"; };
+		5C17B4881A9A801F0066E522 /* NJJobProjectionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobProjectionParser.m; sourceTree = "<group>"; };
+		5C17B4891A9A801F0066E522 /* NJLabourForceSurveyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJLabourForceSurveyParser.h; sourceTree = "<group>"; };
+		5C17B48A1A9A801F0066E522 /* NJLabourForceSurveyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJLabourForceSurveyParser.m; sourceTree = "<group>"; };
+		5C17B4971A9A821B0066E522 /* JobProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobProjection.h; sourceTree = "<group>"; };
+		5C17B4981A9A821B0066E522 /* JobProjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobProjection.m; sourceTree = "<group>"; };
+		5C17B49B1A9A821B0066E522 /* LabourForceSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabourForceSurvey.h; sourceTree = "<group>"; };
+		5C17B49C1A9A821B0066E522 /* LabourForceSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabourForceSurvey.m; sourceTree = "<group>"; };
+		5C17B4A31A9A91DF0066E522 /* JobVacancy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobVacancy.h; sourceTree = "<group>"; };
+		5C17B4A41A9A91DF0066E522 /* JobVacancy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobVacancy.m; sourceTree = "<group>"; };
+		5C17B4B51A9A93660066E522 /* FetchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchHelper.h; sourceTree = "<group>"; };
+		5C17B4B61A9A93660066E522 /* FetchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchHelper.m; sourceTree = "<group>"; };
+		5C17B4B71A9A93660066E522 /* HourlyWageAndEmployerNumFetchHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourlyWageAndEmployerNumFetchHelp.h; sourceTree = "<group>"; };
+		5C17B4B81A9A93660066E522 /* HourlyWageAndEmployerNumFetchHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourlyWageAndEmployerNumFetchHelp.m; sourceTree = "<group>"; };
+		5C17B4B91A9A93660066E522 /* NJJobVacancyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJobVacancyParser.h; sourceTree = "<group>"; };
+		5C17B4BA1A9A93660066E522 /* NJJobVacancyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJobVacancyParser.m; sourceTree = "<group>"; };
+		5C17B4BB1A9A93660066E522 /* provincesCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provincesCoreData.h; sourceTree = "<group>"; };
+		5C17B4BC1A9A93660066E522 /* provincesCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = provincesCoreData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E3E447B1A990C8700AAA47A /* Frameworks */ = {
+		5C17B40C1A9A57420066E522 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B988DBEF70855A8FACDCFB91 /* libPods.a in Frameworks */,
+				A8DC17915783D989E69E4D47 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E3E44971A990C8700AAA47A /* Frameworks */ = {
+		5C17B4281A9A57430066E522 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,184 +162,188 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
-=======
-		0FB3FAAB1A9943640069C7FC /* NJDataSetA */ = {
+		4377A8D0E8A0C597B2E2DEAA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0FB3FAAC1A99437E0069C7FC /* NSDataSetAParser.h */,
-				0FB3FAAD1A99437E0069C7FC /* NSDataSetAParser.m */,
-				0FB3FAB81A9954530069C7FC /* LabourForceSurvey.h */,
-				0FB3FAB91A9954530069C7FC /* LabourForceSurvey.m */,
-				0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */,
+				0FCAE223C9C557A46CEE4358 /* Pods.debug.xcconfig */,
+				544EF043772C676F68C9B33C /* Pods.release.xcconfig */,
 			);
-			name = NJDataSetA;
+			name = Pods;
 			sourceTree = "<group>";
 		};
->>>>>>> fix
-		1D63978FE3C2F0C8AC254524 /* Frameworks */ = {
+		5C17B4061A9A57420066E522 = {
 			isa = PBXGroup;
 			children = (
-				407DFA75DDE5EFB2401951B0 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3E3E44751A990C8700AAA47A = {
-			isa = PBXGroup;
-			children = (
-				3E3E44801A990C8700AAA47A /* NexJob */,
-				3E3E449D1A990C8700AAA47A /* NexJobTests */,
-				3E3E447F1A990C8700AAA47A /* Products */,
-				8574C59C5E9C93A09C0E7F27 /* Pods */,
-				1D63978FE3C2F0C8AC254524 /* Frameworks */,
+				3E07EDDE1A9AF8B600B0B29C /* Provinces.h */,
+				3E07EDDF1A9AF8B600B0B29C /* Provinces.m */,
+				5C17B4111A9A57420066E522 /* NexJob */,
+				5C17B42E1A9A57430066E522 /* NexJobTests */,
+				5C17B4101A9A57420066E522 /* Products */,
+				4377A8D0E8A0C597B2E2DEAA /* Pods */,
+				F399C235C238C114C56394D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		3E3E447F1A990C8700AAA47A /* Products */ = {
+		5C17B4101A9A57420066E522 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E3E447E1A990C8700AAA47A /* NexJob.app */,
-				3E3E449A1A990C8700AAA47A /* NexJobTests.xctest */,
+				5C17B40F1A9A57420066E522 /* NexJob.app */,
+				5C17B42B1A9A57430066E522 /* NexJobTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E3E44801A990C8700AAA47A /* NexJob */ = {
+		5C17B4111A9A57420066E522 /* NexJob */ = {
 			isa = PBXGroup;
 			children = (
-				3E3E44851A990C8700AAA47A /* AppDelegate.h */,
-				3E3E44861A990C8700AAA47A /* AppDelegate.m */,
-				3E3E448E1A990C8700AAA47A /* Main.storyboard */,
-				3E3E44911A990C8700AAA47A /* Images.xcassets */,
-				5C17B39E1A9962F20066E522 /* View Controllers */,
-				5C17B39F1A99630C0066E522 /* Categories */,
-				3E3E44931A990C8700AAA47A /* LaunchScreen.xib */,
-				3E3E44BE1A992F8500AAA47A /* Parser */,
-				3E3E44811A990C8700AAA47A /* Supporting Files */,
+				5C17B43B1A9A59440066E522 /* AppDelegate.h */,
+				5C17B43C1A9A59440066E522 /* AppDelegate.m */,
+				5C17B41F1A9A57420066E522 /* Main.storyboard */,
+				5C17B4221A9A57420066E522 /* Images.xcassets */,
+				5C17B4781A9A5A720066E522 /* Categories */,
+				5C17B4771A9A5A1B0066E522 /* Table View Cells */,
+				5C17B4761A9A5A0F0066E522 /* View Controllers */,
+				5C17B4841A9A7FF90066E522 /* Job Core Data Parser Classes */,
+				5C17B4191A9A57420066E522 /* NexJob.xcdatamodeld */,
+				5C17B4971A9A821B0066E522 /* JobProjection.h */,
+				5C17B4981A9A821B0066E522 /* JobProjection.m */,
+				5C17B4A31A9A91DF0066E522 /* JobVacancy.h */,
+				5C17B4A41A9A91DF0066E522 /* JobVacancy.m */,
+				5C17B49B1A9A821B0066E522 /* LabourForceSurvey.h */,
+				5C17B49C1A9A821B0066E522 /* LabourForceSurvey.m */,
+				5C17B4121A9A57420066E522 /* Supporting Files */,
 			);
 			path = NexJob;
 			sourceTree = "<group>";
 		};
-		3E3E44811A990C8700AAA47A /* Supporting Files */ = {
+		5C17B4121A9A57420066E522 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C17B37C1A9962A50066E522 /* NJPrefixHeader.pch */,
-				3E3E44AA1A990ECA00AAA47A /* datasetRef.txt */,
-				0FB3FABB1A9954D60069C7FC /* NJDataSetA.xml */,
-				3E3E44AE1A990F1800AAA47A /* NJDataSetB.xml */,
-				3E3E44821A990C8700AAA47A /* Info.plist */,
-				3E3E44831A990C8700AAA47A /* main.m */,
+				5C17B4541A9A5A0B0066E522 /* NJPrefixHeader.pch */,
+				5C17B4131A9A57420066E522 /* Info.plist */,
+				5C17B4141A9A57420066E522 /* main.m */,
+				5C17B43E1A9A599A0066E522 /* datasetRef.txt */,
+				5C17B4401A9A59D30066E522 /* NJDataSetA.xml */,
+				5C17B4411A9A59D30066E522 /* NJDataSetB.xml */,
+				5C17B47E1A9A7DB20066E522 /* JobProjection.xml */,
+				5C17B47F1A9A7DB20066E522 /* JobVacancy.xml */,
+				5C17B4801A9A7DB20066E522 /* LabourForceSurvey.xml */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3E3E449D1A990C8700AAA47A /* NexJobTests */ = {
+		5C17B42E1A9A57430066E522 /* NexJobTests */ = {
 			isa = PBXGroup;
 			children = (
-				3E3E44A01A990C8700AAA47A /* NexJobTests.m */,
-				3E3E449E1A990C8700AAA47A /* Supporting Files */,
+				5C17B4311A9A57430066E522 /* NexJobTests.m */,
+				5C17B42F1A9A57430066E522 /* Supporting Files */,
 			);
 			path = NexJobTests;
 			sourceTree = "<group>";
 		};
-		3E3E449E1A990C8700AAA47A /* Supporting Files */ = {
+		5C17B42F1A9A57430066E522 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E3E449F1A990C8700AAA47A /* Info.plist */,
+				5C17B4301A9A57430066E522 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		3E3E44B31A9922F000AAA47A /* CoreData */ = {
+		5C17B4761A9A5A0F0066E522 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FB622911A9970FF00400DB7 /* LabourForceSurvey.h */,
-				0FB622921A9970FF00400DB7 /* LabourForceSurvey.m */,
-				3E3E44B11A9922E200AAA47A /* JobVacancy.m */,
-				3E3E44B01A9922E200AAA47A /* JobVacancy.h */,
-				0FB6228E1A996FE200400DB7 /* NJModel.xcdatamodeld */,
-			);
-			name = CoreData;
-			sourceTree = "<group>";
-		};
-=======
->>>>>>> fix
-		3E3E44BE1A992F8500AAA47A /* Parser */ = {
-			isa = PBXGroup;
-			children = (
-				0FB3FAAC1A99437E0069C7FC /* NJLabourForceSurveyParser.h */,
-				0FB3FAAD1A99437E0069C7FC /* NJLabourForceSurveyParser.m */,
-				3E3E44BF1A992FAB00AAA47A /* NJJobVacancyParser.h */,
-				3E3E44C01A992FAB00AAA47A /* NJJobVacancyParser.m */,
-			);
-			name = Parser;
-			sourceTree = "<group>";
-		};
-		5C17B39E1A9962F20066E522 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				5C17B3721A9962A50066E522 /* NJMainNavigationViewController.h */,
-				5C17B3731A9962A50066E522 /* NJMainNavigationViewController.m */,
-				5C17B3741A9962A50066E522 /* NJMainTabBarController.h */,
-				5C17B3751A9962A50066E522 /* NJMainTabBarController.m */,
-				5C17B3A01A99639D0066E522 /* Jobs View Controller */,
-				5C17B3A11A9963A80066E522 /* Industries View Controller */,
+				5C17B4501A9A5A0B0066E522 /* NJMainNavigationViewController.h */,
+				5C17B4511A9A5A0B0066E522 /* NJMainNavigationViewController.m */,
+				5C17B4521A9A5A0B0066E522 /* NJMainTabBarController.h */,
+				5C17B4531A9A5A0B0066E522 /* NJMainTabBarController.m */,
+				5C17B4471A9A5A0B0066E522 /* NJIntroViewController.h */,
+				5C17B4481A9A5A0B0066E522 /* NJIntroViewController.m */,
+				5C17B4491A9A5A0B0066E522 /* NJIntroViewController.xib */,
+				5C17B45B1A9A5A0B0066E522 /* NJStudyFieldViewController.h */,
+				5C17B45C1A9A5A0B0066E522 /* NJStudyFieldViewController.m */,
+				5C17B45D1A9A5A0B0066E522 /* NJStudyFieldViewController.xib */,
+				5C17B4791A9A5C070066E522 /* NJInfoViewController.h */,
+				5C17B47A1A9A5C070066E522 /* NJInfoViewController.m */,
+				5C17B47B1A9A5C070066E522 /* NJInfoViewController.xib */,
+				5C17B44A1A9A5A0B0066E522 /* NJJobsViewController.h */,
+				5C17B44B1A9A5A0B0066E522 /* NJJobsViewController.m */,
+				5C17B44C1A9A5A0B0066E522 /* NJJobsViewController.xib */,
+				5C17B4441A9A5A0B0066E522 /* NJIndustriesViewController.h */,
+				5C17B4451A9A5A0B0066E522 /* NJIndustriesViewController.m */,
+				5C17B4461A9A5A0B0066E522 /* NJIndustriesViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		5C17B39F1A99630C0066E522 /* Categories */ = {
+		5C17B4771A9A5A1B0066E522 /* Table View Cells */ = {
 			isa = PBXGroup;
 			children = (
-				5C17B37F1A9962A50066E522 /* UIColor+NJAdditions.h */,
-				5C17B3901A9962B00066E522 /* UIColor+NJAdditions.m */,
+				5C17B44D1A9A5A0B0066E522 /* NJJobTableViewCell.h */,
+				5C17B44E1A9A5A0B0066E522 /* NJJobTableViewCell.m */,
+				5C17B44F1A9A5A0B0066E522 /* NJJobTableViewCell.xib */,
+				5C17B45E1A9A5A0B0066E522 /* NJTopProvinceTableViewCell.h */,
+				5C17B45F1A9A5A0B0066E522 /* NJTopProvinceTableViewCell.m */,
+				5C17B4601A9A5A0B0066E522 /* NJTopProvinceTableViewCell.xib */,
+				5C17B4551A9A5A0B0066E522 /* NJRestProvinceTableViewCell.h */,
+				5C17B4561A9A5A0B0066E522 /* NJRestProvinceTableViewCell.m */,
+				5C17B4571A9A5A0B0066E522 /* NJRestProvinceTableViewCell.xib */,
+				5C17B4581A9A5A0B0066E522 /* NJStudyFieldTableViewCell.h */,
+				5C17B4591A9A5A0B0066E522 /* NJStudyFieldTableViewCell.m */,
+				5C17B45A1A9A5A0B0066E522 /* NJStudyFieldTableViewCell.xib */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		5C17B4781A9A5A720066E522 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5C17B4611A9A5A0B0066E522 /* UIColor+NJAdditions.h */,
+				5C17B4621A9A5A0B0066E522 /* UIColor+NJAdditions.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		5C17B3A01A99639D0066E522 /* Jobs View Controller */ = {
+		5C17B4841A9A7FF90066E522 /* Job Core Data Parser Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5C17B36F1A9962A50066E522 /* NJJobsViewController.h */,
-				5C17B3701A9962A50066E522 /* NJJobsViewController.m */,
-				5C17B3711A9962A50066E522 /* NJJobsViewController.xib */,
+				5C17B4B51A9A93660066E522 /* FetchHelper.h */,
+				5C17B4B61A9A93660066E522 /* FetchHelper.m */,
+				5C17B4B71A9A93660066E522 /* HourlyWageAndEmployerNumFetchHelp.h */,
+				5C17B4B81A9A93660066E522 /* HourlyWageAndEmployerNumFetchHelp.m */,
+				5C17B4B91A9A93660066E522 /* NJJobVacancyParser.h */,
+				5C17B4BA1A9A93660066E522 /* NJJobVacancyParser.m */,
+				5C17B4BB1A9A93660066E522 /* provincesCoreData.h */,
+				5C17B4BC1A9A93660066E522 /* provincesCoreData.m */,
+				5C17B4851A9A801F0066E522 /* NJJobProjectionFetch.h */,
+				5C17B4861A9A801F0066E522 /* NJJobProjectionFetch.m */,
+				5C17B4871A9A801F0066E522 /* NJJobProjectionParser.h */,
+				5C17B4881A9A801F0066E522 /* NJJobProjectionParser.m */,
+				5C17B4891A9A801F0066E522 /* NJLabourForceSurveyParser.h */,
+				5C17B48A1A9A801F0066E522 /* NJLabourForceSurveyParser.m */,
 			);
-			name = "Jobs View Controller";
+			name = "Job Core Data Parser Classes";
 			sourceTree = "<group>";
 		};
-		5C17B3A11A9963A80066E522 /* Industries View Controller */ = {
+		F399C235C238C114C56394D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C17B36C1A9962A50066E522 /* NJIndustriesViewController.h */,
-				5C17B36D1A9962A50066E522 /* NJIndustriesViewController.m */,
-				5C17B36E1A9962A50066E522 /* NJIndustriesViewController.xib */,
+				525C38F1F736F8161BFC43E7 /* libPods.a */,
 			);
-			name = "Industries View Controller";
-			sourceTree = "<group>";
-		};
-		8574C59C5E9C93A09C0E7F27 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6B0AC3C77FB0C3FCEC7DEE6B /* Pods.debug.xcconfig */,
-				5DB090ABE0232B4D41DEEE01 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E3E447D1A990C8700AAA47A /* NexJob */ = {
+		5C17B40E1A9A57420066E522 /* NexJob */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E3E44A41A990C8700AAA47A /* Build configuration list for PBXNativeTarget "NexJob" */;
+			buildConfigurationList = 5C17B4351A9A57430066E522 /* Build configuration list for PBXNativeTarget "NexJob" */;
 			buildPhases = (
-				AA2E234C1AFCC9B15BA1C522 /* Check Pods Manifest.lock */,
-				3E3E447A1A990C8700AAA47A /* Sources */,
-				3E3E447B1A990C8700AAA47A /* Frameworks */,
-				3E3E447C1A990C8700AAA47A /* Resources */,
-				0F50E943CFB67D56861FB412 /* Copy Pods Resources */,
+				89AB382E55B6794E169FACE6 /* Check Pods Manifest.lock */,
+				5C17B40B1A9A57420066E522 /* Sources */,
+				5C17B40C1A9A57420066E522 /* Frameworks */,
+				5C17B40D1A9A57420066E522 /* Resources */,
+				63D647B13F280265C821E13A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,46 +351,47 @@
 			);
 			name = NexJob;
 			productName = NexJob;
-			productReference = 3E3E447E1A990C8700AAA47A /* NexJob.app */;
+			productReference = 5C17B40F1A9A57420066E522 /* NexJob.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3E3E44991A990C8700AAA47A /* NexJobTests */ = {
+		5C17B42A1A9A57430066E522 /* NexJobTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E3E44A71A990C8700AAA47A /* Build configuration list for PBXNativeTarget "NexJobTests" */;
+			buildConfigurationList = 5C17B4381A9A57430066E522 /* Build configuration list for PBXNativeTarget "NexJobTests" */;
 			buildPhases = (
-				3E3E44961A990C8700AAA47A /* Sources */,
-				3E3E44971A990C8700AAA47A /* Frameworks */,
-				3E3E44981A990C8700AAA47A /* Resources */,
+				5C17B4271A9A57430066E522 /* Sources */,
+				5C17B4281A9A57430066E522 /* Frameworks */,
+				5C17B4291A9A57430066E522 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3E3E449C1A990C8700AAA47A /* PBXTargetDependency */,
+				5C17B42D1A9A57430066E522 /* PBXTargetDependency */,
 			);
 			name = NexJobTests;
 			productName = NexJobTests;
-			productReference = 3E3E449A1A990C8700AAA47A /* NexJobTests.xctest */;
+			productReference = 5C17B42B1A9A57430066E522 /* NexJobTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3E3E44761A990C8700AAA47A /* Project object */ = {
+		5C17B4071A9A57420066E522 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "War of the Totems";
 				TargetAttributes = {
-					3E3E447D1A990C8700AAA47A = {
+					5C17B40E1A9A57420066E522 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = PF37Q52TW3;
 					};
-					3E3E44991A990C8700AAA47A = {
+					5C17B42A1A9A57430066E522 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 3E3E447D1A990C8700AAA47A;
+						TestTargetID = 5C17B40E1A9A57420066E522;
 					};
 				};
 			};
-			buildConfigurationList = 3E3E44791A990C8700AAA47A /* Build configuration list for PBXProject "NexJob" */;
+			buildConfigurationList = 5C17B40A1A9A57420066E522 /* Build configuration list for PBXProject "NexJob" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -338,34 +399,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 3E3E44751A990C8700AAA47A;
-			productRefGroup = 3E3E447F1A990C8700AAA47A /* Products */;
+			mainGroup = 5C17B4061A9A57420066E522;
+			productRefGroup = 5C17B4101A9A57420066E522 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E3E447D1A990C8700AAA47A /* NexJob */,
-				3E3E44991A990C8700AAA47A /* NexJobTests */,
+				5C17B40E1A9A57420066E522 /* NexJob */,
+				5C17B42A1A9A57430066E522 /* NexJobTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E3E447C1A990C8700AAA47A /* Resources */ = {
+		5C17B40D1A9A57420066E522 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E3E44901A990C8700AAA47A /* Main.storyboard in Resources */,
-				3E3E44951A990C8700AAA47A /* LaunchScreen.xib in Resources */,
-				3E3E44921A990C8700AAA47A /* Images.xcassets in Resources */,
-				3E3E44AB1A990ECA00AAA47A /* datasetRef.txt in Resources */,
-				0FB3FABC1A9954D60069C7FC /* NJDataSetA.xml in Resources */,
-				3E3E44AF1A990F1800AAA47A /* NJDataSetB.xml in Resources */,
-				5C17B3871A9962A50066E522 /* NJJobsViewController.xib in Resources */,
-				5C17B3851A9962A50066E522 /* NJIndustriesViewController.xib in Resources */,
+				5C17B47D1A9A5C070066E522 /* NJInfoViewController.xib in Resources */,
+				5C17B4211A9A57420066E522 /* Main.storyboard in Resources */,
+				5C17B4231A9A57420066E522 /* Images.xcassets in Resources */,
+				5C17B46E1A9A5A0B0066E522 /* NJRestProvinceTableViewCell.xib in Resources */,
+				5C17B46A1A9A5A0B0066E522 /* NJJobTableViewCell.xib in Resources */,
+				5C17B4741A9A5A0B0066E522 /* NJTopProvinceTableViewCell.xib in Resources */,
+				5C17B4811A9A7DB20066E522 /* JobProjection.xml in Resources */,
+				5C17B4421A9A59D30066E522 /* NJDataSetA.xml in Resources */,
+				5C17B4701A9A5A0B0066E522 /* NJStudyFieldTableViewCell.xib in Resources */,
+				5C17B4721A9A5A0B0066E522 /* NJStudyFieldViewController.xib in Resources */,
+				5C17B43F1A9A599A0066E522 /* datasetRef.txt in Resources */,
+				5C17B4831A9A7DB20066E522 /* LabourForceSurvey.xml in Resources */,
+				5C17B4661A9A5A0B0066E522 /* NJIntroViewController.xib in Resources */,
+				5C17B4431A9A59D30066E522 /* NJDataSetB.xml in Resources */,
+				5C17B4821A9A7DB20066E522 /* JobVacancy.xml in Resources */,
+				5C17B4681A9A5A0B0066E522 /* NJJobsViewController.xib in Resources */,
+				5C17B4641A9A5A0B0066E522 /* NJIndustriesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E3E44981A990C8700AAA47A /* Resources */ = {
+		5C17B4291A9A57430066E522 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,7 +445,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F50E943CFB67D56861FB412 /* Copy Pods Resources */ = {
+		63D647B13F280265C821E13A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,7 +460,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA2E234C1AFCC9B15BA1C522 /* Check Pods Manifest.lock */ = {
+		89AB382E55B6794E169FACE6 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,67 +478,70 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E3E447A1A990C8700AAA47A /* Sources */ = {
+		5C17B40B1A9A57420066E522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB622931A9970FF00400DB7 /* LabourForceSurvey.m in Sources */,
-				5C17B3891A9962A50066E522 /* NJMainTabBarController.m in Sources */,
-				5C17B3841A9962A50066E522 /* NJIndustriesViewController.m in Sources */,
-				5C17B3881A9962A50066E522 /* NJMainNavigationViewController.m in Sources */,
-				5C17B3911A9962B00066E522 /* UIColor+NJAdditions.m in Sources */,
-<<<<<<< HEAD
-				0FB622901A996FE200400DB7 /* NJModel.xcdatamodeld in Sources */,
-				3E3E44B21A9922E200AAA47A /* JobVacancy.m in Sources */,
-=======
->>>>>>> fix
-				5C17B3861A9962A50066E522 /* NJJobsViewController.m in Sources */,
-				3E3E44C11A992FAB00AAA47A /* NJJobVacancyParser.m in Sources */,
-				0FB3FAAE1A99437E0069C7FC /* NJLabourForceSurveyParser.m in Sources */,
-				3E3E44871A990C8700AAA47A /* AppDelegate.m in Sources */,
-				3E3E44841A990C8700AAA47A /* main.m in Sources */,
+				5C17B46F1A9A5A0B0066E522 /* NJStudyFieldTableViewCell.m in Sources */,
+				5C17B48D1A9A801F0066E522 /* NJLabourForceSurveyParser.m in Sources */,
+				5C17B49D1A9A821B0066E522 /* JobProjection.m in Sources */,
+				5C17B4691A9A5A0B0066E522 /* NJJobTableViewCell.m in Sources */,
+				5C17B4C01A9A93660066E522 /* provincesCoreData.m in Sources */,
+				5C17B4671A9A5A0B0066E522 /* NJJobsViewController.m in Sources */,
+				5C17B47C1A9A5C070066E522 /* NJInfoViewController.m in Sources */,
+				5C17B4711A9A5A0B0066E522 /* NJStudyFieldViewController.m in Sources */,
+				5C17B4651A9A5A0B0066E522 /* NJIntroViewController.m in Sources */,
+				5C17B4BE1A9A93660066E522 /* HourlyWageAndEmployerNumFetchHelp.m in Sources */,
+				5C17B4731A9A5A0B0066E522 /* NJTopProvinceTableViewCell.m in Sources */,
+				5C17B4631A9A5A0B0066E522 /* NJIndustriesViewController.m in Sources */,
+				5C17B43D1A9A59440066E522 /* AppDelegate.m in Sources */,
+				5C17B48C1A9A801F0066E522 /* NJJobProjectionParser.m in Sources */,
+				5C17B41B1A9A57420066E522 /* NexJob.xcdatamodeld in Sources */,
+				5C17B46B1A9A5A0B0066E522 /* NJMainNavigationViewController.m in Sources */,
+				5C17B49F1A9A821B0066E522 /* LabourForceSurvey.m in Sources */,
+				5C17B48B1A9A801F0066E522 /* NJJobProjectionFetch.m in Sources */,
+				5C17B4A51A9A91DF0066E522 /* JobVacancy.m in Sources */,
+				5C17B4BD1A9A93660066E522 /* FetchHelper.m in Sources */,
+				5C17B4BF1A9A93660066E522 /* NJJobVacancyParser.m in Sources */,
+				3E07EDE01A9AF8B600B0B29C /* Provinces.m in Sources */,
+				5C17B46D1A9A5A0B0066E522 /* NJRestProvinceTableViewCell.m in Sources */,
+				5C17B4751A9A5A0B0066E522 /* UIColor+NJAdditions.m in Sources */,
+				5C17B4151A9A57420066E522 /* main.m in Sources */,
+				5C17B46C1A9A5A0B0066E522 /* NJMainTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E3E44961A990C8700AAA47A /* Sources */ = {
+		5C17B4271A9A57430066E522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E3E44A11A990C8700AAA47A /* NexJobTests.m in Sources */,
+				5C17B4321A9A57430066E522 /* NexJobTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E3E449C1A990C8700AAA47A /* PBXTargetDependency */ = {
+		5C17B42D1A9A57430066E522 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E3E447D1A990C8700AAA47A /* NexJob */;
-			targetProxy = 3E3E449B1A990C8700AAA47A /* PBXContainerItemProxy */;
+			target = 5C17B40E1A9A57420066E522 /* NexJob */;
+			targetProxy = 5C17B42C1A9A57430066E522 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3E3E448E1A990C8700AAA47A /* Main.storyboard */ = {
+		5C17B41F1A9A57420066E522 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3E3E448F1A990C8700AAA47A /* Base */,
+				5C17B4201A9A57420066E522 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3E3E44931A990C8700AAA47A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E3E44941A990C8700AAA47A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3E3E44A21A990C8700AAA47A /* Debug */ = {
+		5C17B4331A9A57430066E522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -510,7 +583,7 @@
 			};
 			name = Debug;
 		};
-		3E3E44A31A990C8700AAA47A /* Release */ = {
+		5C17B4341A9A57430066E522 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -546,31 +619,37 @@
 			};
 			name = Release;
 		};
-		3E3E44A51A990C8700AAA47A /* Debug */ = {
+		5C17B4361A9A57430066E522 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B0AC3C77FB0C3FCEC7DEE6B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 0FCAE223C9C557A46CEE4358 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kwang-Hee Park (XTF92X56W5)";
 				INFOPLIST_FILE = NexJob/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a43aaede-0a7e-46bd-a136-23a045ff350f";
 			};
 			name = Debug;
 		};
-		3E3E44A61A990C8700AAA47A /* Release */ = {
+		5C17B4371A9A57430066E522 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DB090ABE0232B4D41DEEE01 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 544EF043772C676F68C9B33C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kwang-Hee Park (XTF92X56W5)";
 				INFOPLIST_FILE = NexJob/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a43aaede-0a7e-46bd-a136-23a045ff350f";
 			};
 			name = Release;
 		};
-		3E3E44A81A990C8700AAA47A /* Debug */ = {
+		5C17B4391A9A57430066E522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -589,7 +668,7 @@
 			};
 			name = Debug;
 		};
-		3E3E44A91A990C8700AAA47A /* Release */ = {
+		5C17B43A1A9A57430066E522 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -607,50 +686,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E3E44791A990C8700AAA47A /* Build configuration list for PBXProject "NexJob" */ = {
+		5C17B40A1A9A57420066E522 /* Build configuration list for PBXProject "NexJob" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E3E44A21A990C8700AAA47A /* Debug */,
-				3E3E44A31A990C8700AAA47A /* Release */,
+				5C17B4331A9A57430066E522 /* Debug */,
+				5C17B4341A9A57430066E522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E3E44A41A990C8700AAA47A /* Build configuration list for PBXNativeTarget "NexJob" */ = {
+		5C17B4351A9A57430066E522 /* Build configuration list for PBXNativeTarget "NexJob" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E3E44A51A990C8700AAA47A /* Debug */,
-				3E3E44A61A990C8700AAA47A /* Release */,
+				5C17B4361A9A57430066E522 /* Debug */,
+				5C17B4371A9A57430066E522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E3E44A71A990C8700AAA47A /* Build configuration list for PBXNativeTarget "NexJobTests" */ = {
+		5C17B4381A9A57430066E522 /* Build configuration list for PBXNativeTarget "NexJobTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E3E44A81A990C8700AAA47A /* Debug */,
-				3E3E44A91A990C8700AAA47A /* Release */,
+				5C17B4391A9A57430066E522 /* Debug */,
+				5C17B43A1A9A57430066E522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-<<<<<<< HEAD
 
 /* Begin XCVersionGroup section */
-		0FB6228E1A996FE200400DB7 /* NJModel.xcdatamodeld */ = {
+		5C17B4191A9A57420066E522 /* NexJob.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0FB6228F1A996FE200400DB7 /* NJModel.xcdatamodel */,
+				5C17B41A1A9A57420066E522 /* NexJob.xcdatamodel */,
 			);
-			currentVersion = 0FB6228F1A996FE200400DB7 /* NJModel.xcdatamodel */;
-			path = NJModel.xcdatamodeld;
+			currentVersion = 5C17B41A1A9A57420066E522 /* NexJob.xcdatamodel */;
+			path = NexJob.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
-=======
->>>>>>> fix
 	};
-	rootObject = 3E3E44761A990C8700AAA47A /* Project object */;
+	rootObject = 5C17B4071A9A57420066E522 /* Project object */;
 }

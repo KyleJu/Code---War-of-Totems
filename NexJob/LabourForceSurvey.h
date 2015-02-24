@@ -1,9 +1,9 @@
 //
 //  LabourForceSurvey.h
-//  NexJob
+//  
 //
-//  Created by Ann Kim on 2015-02-21.
-//  Copyright (c) 2015 War of the Totems. All rights reserved.
+//  Created by KP on 2/22/15.
+//
 //
 
 #import <Foundation/Foundation.h>
@@ -12,13 +12,13 @@
 
 @interface LabourForceSurvey : NSManagedObject
 
-@property (nonatomic, retain) NSString * ageGroup;
-@property (nonatomic, retain) NSString * sex;
-@property (nonatomic, retain) NSString * wageRates;
+@property (nonatomic) int16_t ageGroup;
+@property (nonatomic) int16_t geography;
 @property (nonatomic, retain) NSString * industry;
-@property (nonatomic, retain) NSString * typesOfWork;
-@property (nonatomic, retain) NSString * geography;
-@property (nonatomic, retain) NSString * obsValue;
-@property (nonatomic, retain) NSString * timePeriod;
+@property (nonatomic) float obsValue;
+@property (nonatomic) int16_t sex;
+@property (nonatomic) NSTimeInterval timePeriod;
+@property (nonatomic) int16_t typeOfWork;
+@property (nonatomic) int16_t wageRates;
 
 @end

@@ -2,7 +2,7 @@
 //  main.m
 //  NexJob
 //
-//  Created by Kyle Ju on 2015-02-21.
+//  Created by KP on 2/22/15.
 //  Copyright (c) 2015 War of the Totems. All rights reserved.
 //
 

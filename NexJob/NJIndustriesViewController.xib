@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6254"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NJIndustriesViewController">
             <connections>
+                <outlet property="tabBarBackgroundView" destination="ph7-g5-us7" id="boe-G3-pvJ"/>
+                <outlet property="tableView" destination="IOE-av-e7B" id="koP-ok-g5O"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="widthOfIndicatorView" destination="3eo-Mi-wi3" id="Djb-U8-CRi"/>
             </connections>
@@ -15,6 +17,14 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="IOE-av-e7B">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="2FN-6i-3L4"/>
+                        <outlet property="delegate" destination="-1" id="gDN-hn-I6b"/>
+                    </connections>
+                </tableView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ph7-g5-us7">
                     <rect key="frame" x="0.0" y="524" width="320" height="2"/>
                     <subviews>
@@ -37,8 +47,12 @@
             </subviews>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="ph7-g5-us7" secondAttribute="bottom" constant="42" id="6ii-mv-fOs"/>
+                <constraint firstItem="IOE-av-e7B" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="X4M-z6-eXQ"/>
+                <constraint firstItem="ph7-g5-us7" firstAttribute="top" secondItem="IOE-av-e7B" secondAttribute="bottom" id="Z1c-ED-pv0"/>
                 <constraint firstAttribute="trailing" secondItem="ph7-g5-us7" secondAttribute="trailing" id="aya-CQ-PvL"/>
+                <constraint firstAttribute="trailing" secondItem="IOE-av-e7B" secondAttribute="trailing" id="bPy-kP-8wB"/>
                 <constraint firstItem="ph7-g5-us7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cOz-Nh-mOo"/>
+                <constraint firstItem="IOE-av-e7B" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dHp-tE-oEC"/>
             </constraints>
             <nil key="simulatedBottomBarMetrics"/>
             <point key="canvasLocation" x="269" y="355"/>

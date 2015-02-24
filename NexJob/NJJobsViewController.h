@@ -10,4 +10,6 @@
 
 @interface NJJobsViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *arrayOfJobs;
+
 @end

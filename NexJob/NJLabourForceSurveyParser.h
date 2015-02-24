@@ -6,11 +6,10 @@
 //  Copyright (c) 2015 War of the Totems. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "LabourForceSurvey.h"
+#import <UIKit/UIKit.h>
 #import "TBXML.h"
 
-@interface NSDataSetAParser : NSObject
+@interface NJLabourForceSurveyParser : UIViewController
 
 + (void)loadXML;
 + (void)traverseXMLElement:(TBXMLElement *)element;

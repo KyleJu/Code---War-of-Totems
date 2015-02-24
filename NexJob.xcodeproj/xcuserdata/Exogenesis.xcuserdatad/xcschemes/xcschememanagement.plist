@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NexJob.xcscheme_^#shared#^_</key>
+		<key>NexJob.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3E3E447D1A990C8700AAA47A</key>
+		<key>5C17B40E1A9A57420066E522</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3E3E44991A990C8700AAA47A</key>
+		<key>5C17B42A1A9A57430066E522</key>
 		<dict>
 			<key>primary</key>
 			<true/>

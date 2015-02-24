@@ -14,7 +14,7 @@
 
 + (UIColor*)nj_redColor
 {
-    return UIColorFromRGB(0xDD2C2C);
+    return UIColorFromRGB(0xEB413E);
 }
 
 + (UIColor*)nj_greyColor

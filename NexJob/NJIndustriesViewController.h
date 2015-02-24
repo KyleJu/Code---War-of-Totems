@@ -10,4 +10,6 @@
 
 @interface NJIndustriesViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *arrayOfIndustries;
+
 @end

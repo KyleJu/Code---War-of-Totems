@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "NJJobVacancyParser.h"
+#import "NJJobProjectionFetch.h"
 
 #define kHeightOfTabBar 42.0f
 
@@ -22,15 +22,34 @@
     
     // Appeareances
     
+    BOOL isParsed = [[NSUserDefaults standardUserDefaults] boolForKey:@"isParsed"];
+    if (!isParsed) {
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+            [NJJobProjectionParser loadXML];
+            [NJJobVacancyParser loadXML];
+            [NJLabourForceSurveyParser loadXML];
+        });
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isParsed"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    
     [[UITabBarItem appearanceWhenContainedIn:[NJMainTabBarController class], nil] setTitleTextAttributes: @{NSForegroundColorAttributeName : [UIColor blackColor], NSFontAttributeName : [UIFont fontWithName:@"AvenirNext-Regular" size:17]} forState:UIControlStateNormal];
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setBackgroundColor:[UIColor nj_greyColor]];
-    
+    [[UIBarButtonItem appearance] setTitleTextAttributes: @{NSForegroundColorAttributeName : [UIColor nj_redColor], NSFontAttributeName : [UIFont fontWithName:@"AvenirNext-Regular" size:17]} forState:UIControlStateNormal];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     self.jobsVC = [[NJJobsViewController alloc] init];
     self.industriesVC = [[NJIndustriesViewController alloc] init];
+    self.introVC = [[NJIntroViewController alloc] init];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self.jobsVC selector:@selector(reloadTableView:) name:@"NJNotificationJobsVC" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self.industriesVC selector:@selector(reloadTableView:) name:@"NJNotificationIndustriesVC" object:nil];
+
     
     NJMainNavigationViewController *navController1 = [[NJMainNavigationViewController alloc] initWithRootViewController:self.jobsVC];
     NJMainNavigationViewController *navController2 = [[NJMainNavigationViewController alloc] initWithRootViewController:self.industriesVC];
@@ -43,18 +62,60 @@
     
     UITabBarItem *itemJob = [self.tabBarController.tabBar.items objectAtIndex:0];
     UITabBarItem *itemIndustry = [self.tabBarController.tabBar.items objectAtIndex:1];
-    
+        
     [itemJob setTitle:@"Jobs"];
-    [itemIndustry setTitle:@"Industries"];
+    [itemIndustry setTitle:@"Provinces"];
     
-    [itemJob setTitlePositionAdjustment:UIOffsetMake(0, -14.0)];
-    [itemIndustry setTitlePositionAdjustment:UIOffsetMake(0, -14.0)];
+    [itemJob setTitlePositionAdjustment:UIOffsetMake(0, -15.0)];
+    [itemIndustry setTitlePositionAdjustment:UIOffsetMake(0, -15.0)];
     
     self.tabBarController.selectedIndex = 0;
     
-    self.window.rootViewController = self.tabBarController;
+    self.window.rootViewController = self.introVC;
     
     return YES;
+}
+
+- (void)transitionToResultsScreen
+{
+    self.window.rootViewController =  self.tabBarController;
+    
+    [UIView transitionWithView:self.window
+                      duration:1.0
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:nil
+                    completion:nil];
+}
+
+- (void)fetchJobsWithGroupCodes:(NSArray *)arrayOfGC andIndustryCodes:(NSArray *)arrayOfIC
+{
+    NSArray *arrayOfJobs = [NJJobProjectionFetch jobProjectionFetchHelper:arrayOfGC withIndustry:arrayOfIC];
+    
+    NSMutableArray *arrayOfIndustries;
+    NSMutableArray *temporaryArray = [provincesCoreData vacancyFetchProvinces:arrayOfIC[0]];
+    if (temporaryArray.count > 0){
+        arrayOfIndustries = temporaryArray;
+    }else{
+        [provincesCoreData createProvincesEntity:arrayOfIC[0]];
+        arrayOfIndustries = [provincesCoreData vacancyFetchProvinces:arrayOfIC[0]];
+
+    }
+    NSArray *sortedArrayOfJobs = [arrayOfJobs sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        JobProjection *job1 = (JobProjection*)obj1;
+        JobProjection *job2 = (JobProjection*)obj2;
+        
+        if (job1.projectionAverage > job2.projectionAverage){
+            return NSOrderedAscending;
+        } else if (job1.projectionAverage == job2.projectionAverage) {
+            return NSOrderedSame;
+        } else {
+            return NSOrderedDescending;
+        }
+    }];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"NJNotificationJobsVC" object:sortedArrayOfJobs];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"NJNotificationIndustriesVC" object:arrayOfIndustries];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
